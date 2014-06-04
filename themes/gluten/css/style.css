@@ -1,0 +1,1589 @@
+/* ---------- TYPO ---------- */
+
+/* ... Museo ... */
+
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,300);
+
+body { 
+	font: 16px/1.5 'Lato', helvetica, arial, sans-serif;
+}
+
+::-moz-selection { color: #ffffff;  background: #f75953; }
+::selection      { color: #ffffff;  background: #f75953; }
+
+/* Body */
+
+#cachetoistp {
+	display: inline-block;
+	width: 100%;
+	height: 200px;
+	background: #ffffff;
+	position: relative;
+	top: 50px;
+}
+
+/* clearfix */
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+
+/* Menu (header) */
+
+header {
+	padding: 48px;
+	border-bottom: 1px solid #f75953;
+}
+
+header h1 {
+	font-family: 'Open Sans';
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 32px;
+	text-transform: uppercase;
+}
+	
+	header h1 a {
+		text-decoration: none;
+		color: #969fa8;
+	}
+
+ul.menu {
+	float: right;
+	overflow: hidden;
+	margin-top: -24px;
+}
+
+	ul.menu li {
+		float: left;
+		width: 100px;
+		margin: 0 24px 0 0;
+		text-align: right;
+	}
+	ul.menu li:last-child {
+		margin: 0;
+	}
+
+		ul.menu li a {
+			text-decoration: none;
+			color: #969fa8;
+			display: inline-block;
+		}
+
+		ul.menu li a:hover {
+			color: #f75953;
+		}
+
+		ul.menu li a.selected {
+			color: #f75953;
+		}
+
+/* Banner */
+
+.banner {
+	padding: 80px 0 120px;
+	color: #ffffff;
+	height: 408px;
+	background-size: cover;			
+}
+
+.banner h2 {
+	font-size: 48px;
+	font-weight: bold;
+	font-family: 'Open Sans';
+	text-transform: uppercase;
+	text-align: center;
+	padding: 24px;
+}
+
+.banner hr {
+	width: 530px;
+	border: 1px solid #ffffff;
+}
+
+.banner .learnto {
+	text-align: center;
+	margin: 48px 0 48px;
+	font-size: 24px;
+}
+
+.banner .startjdb {
+	font-size: 24px;
+	margin: 72px 0 0;
+	text-align: center;
+}
+
+/* INSCRIPTION */
+
+/* content */
+
+#inscription .content {
+	overflow: hidden;
+	min-width: 1280px;
+	max-width: 1368px;
+	margin: 0 auto;
+}
+
+#inscription .content p {
+	color: #969fa8;
+	width: 376px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+	#inscription .content p a {
+		text-decoration: none;
+		color: #f75953;
+	}
+
+/* form */
+
+#inscription label {
+	display: block;
+	width: 376px;
+	color: #969fa8;
+	margin: 0 24px 24px 0;
+	cursor: pointer;
+	text-align: center;
+	padding: 12px 0;
+	font-size: 24px;
+	border: 1px solid #969fa8;
+}
+
+#inscription input:checked + label {
+	color: #f75953;
+	border: 1px solid #f75953;
+}
+
+#inscription #patient, #inscription #medecin {
+	display: none;
+}
+
+/* INSCRIPTION */
+
+#banner-inscription {
+	background: url(../img/banner-index-cloak.png),
+				url(../img/banner-inscription-test.png) 0 0 no-repeat;
+	background-size: cover;	
+}
+
+/* CONNEXION */
+
+#banner-connexion {
+	background: url(../img/banner-index-cloak.png),
+				url(../img/banner-connexion-test.png) 0 0 no-repeat;
+	background-size: cover;	
+}
+
+/* content */
+
+#connexion .content {
+	overflow: hidden;
+	min-width: 1280px;
+	max-width: 1368px;
+	margin: 0 auto;
+}
+
+#connexion .content p {
+	color: #969fa8;
+	width: 376px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+	#connexion .content p a {
+		text-decoration: none;
+		color: #f75953;
+	}
+
+/* form */
+
+#connexion .content form, #inscription .content form {
+	margin: 72px auto 24px;
+	width: 376px;
+	max-width: 376px;
+	font-family: 'Open Sans';
+	font-weight: lighter;
+}
+
+.content .log-field {
+	padding: 12px 0;
+	width: 100%;
+	text-align: center;
+	cursor: pointer;
+	margin: 0 0 24px;
+	font-size: 24px;
+	font-family: 'Open Sans';
+	font-weight: lighter;
+}
+
+.content .submit {
+	padding: 12px 0;
+	width: 101%;
+	text-align: center;
+	background: #f75953;
+	color: #ffffff;
+	border: 1px solid #f75953;
+	cursor: pointer;
+	font-size: 24px;
+	font-family: 'Open Sans';
+	font-weight: lighter;
+}
+
+/* INDEX */
+
+#banner-index {
+	background: url(../img/banner-index-cloak.png),
+				url(../img/banner-index-test.png) 0 0 no-repeat;
+	background-size: cover;
+}
+
+#banner-index a {
+	font-size: 24px;
+	color: #ffffff;
+	text-decoration: none;
+	background: #f75953;
+	padding: 24px 48px;
+	margin: 72px 0 0;
+}
+
+/* content */
+
+#index .content {
+	overflow: hidden;
+	min-width: 1280px;
+	max-width: 1368px;
+	margin: 0 auto;
+	background: #ffffff;
+}
+
+#index h3 {
+	background: #f75953;
+	font-size: 32px;
+	font-weight: bold;
+	text-align: center;
+	color: #ffffff;
+	padding: 48px 0;
+}
+
+/* Pourquoi */
+
+.pourquoi {
+	clear: both;
+	overflow: hidden;
+}
+
+#index .content .pourquoi h4 {
+	color: #f75953;
+	font-size: 36px;
+	font-weight: bold;
+	width: 500px;
+	margin: 60px 0 24px 89px;
+	text-align: center;
+	float: left;
+}
+
+#index .content .pourquoi p {
+	color: #333333;
+	margin: 0 0 0 89px;
+	width: 500px;
+	float: left;
+	line-height: 32px;
+}
+
+/* Comment */
+
+.comment {
+	clear: both;
+	overflow: hidden;
+}
+
+#index .content .comment h4 {
+	color: #f75953;
+	font-size: 36px;
+	font-weight: bold;
+	width: 500px;
+	margin: 60px 0 24px 89px;
+	text-align: center;
+	float: left;
+}
+
+#index .content .comment p {
+	color: #333333;
+	margin: 0 0 0 89px;
+	width: 500px;
+	float: left;
+	clear: left;
+	line-height: 32px;
+}
+
+#index .content .box-img {
+	display: block;
+	width: 50%;
+	height: 456px;
+}
+
+	#index .content #box-pourquoi {
+		float: left;
+		background: #f75953 url(../img/visuel-pourquoi-test.png) no-repeat;
+		background-size: cover;
+	}
+
+	#index .content #box-comment {
+		float: right;
+		background: #f75953 url(../img/visuel-comment-test.png) no-repeat;
+		background-size: cover;
+	}
+
+/* Timeline */
+
+.timelineandco {
+	max-width: 1272px;
+	padding: 0 48px;
+	margin: 48px auto 0; 
+}
+
+.timeline {
+	overflow: hidden;
+	position: relative;
+}
+
+.timeline li {
+	margin: 48px 0;
+	clear: both;
+	overflow: hidden;
+}
+	.timeline li:nth-child(even) {
+		float: right;
+	}
+
+.timeline li h4 {
+	font-size: 24px;
+	font-weight: bold;
+	color: #f75953;
+	text-align: center;
+	margin: 0 0 48px;
+	width: 481px;
+}
+
+	.timeline li:nth-child(odd) h4 {
+		float: left;
+	}
+
+	.timeline li:nth-child(even) h4 {
+		float: right;
+	}
+
+.timeline li p {
+	color: #969fa8;
+	width: 481px;
+	text-align: center;
+}
+
+	.timeline li:nth-child(odd) p {
+		float: left;
+	}
+
+	.timeline li:nth-child(even) p {
+		float: right;
+	}
+
+.timeline #people-scroll {
+	width: 71px;
+	height: 71px;
+	background: url(../img/people-scroll.png);
+	position: fixed;
+		top: 45%;
+		left: 50%;
+	margin: 0 0 0 -36px;
+	z-index: -1;
+}
+
+.timeline .timeline-box-img {
+	display: block;
+	width: 481px;
+	height: 192px;
+}
+
+
+	.timeline li:nth-child(2) .timeline-box-img {
+		background: url(../img/timeline-inscription.png) 0 0 no-repeat;
+		background-size: 100%;
+	}
+
+	.timeline li:nth-child(3) .timeline-box-img {
+		background: url(../img/timeline-accueil.png) 0 0 no-repeat;
+		background-size: 100%;
+	}
+
+	.timeline li:nth-child(4) .timeline-box-img {
+		background: url(../img/timeline-jdb.png) 0 0 no-repeat;
+		background-size: 100%;
+	}
+
+	.timeline li:nth-child(5) .timeline-box-img {
+		background: url(../img/timeline-profil.png) 0 0 no-repeat;
+		background-size: 100%;
+	}
+
+	.timeline li:nth-child(odd) .timeline-box-img {
+		float: right;
+	}
+
+	.timeline li:nth-child(even) .timeline-box-img {
+		float: left;
+	}
+
+.timelineandco .startjdb {
+	text-align: center;
+	margin: 72px 0 0;
+}
+
+	.timelineandco .startjdb a {
+		font-size: 24px;
+		color: #ffffff;
+		text-decoration: none;
+		background: #f75953;
+		padding: 24px 48px;
+		margin: 72px 0 0;
+	}
+
+/* Journal de Bord */
+
+#jdb .content {
+	overflow: hidden;
+	min-width: 1280px;
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+#jdb .sidebar {
+	width: 386px;
+	float: left;
+}
+
+#jdb .inner-content {
+	float: left;
+	width: 70%;
+	border-left: 1px solid #f75953;
+}
+
+#jdb .sidebar h3 {
+	color: #f75953;
+	font-size: 24px;
+	text-align: center;
+	margin: 48px 0 48px;
+}
+	/* config calendar */
+
+	#jdb .sidebar #week-selector {
+		overflow: hidden;
+		border-bottom: 1px solid #f75953;
+	}
+
+	.sidebar #week-selector #backto, #goto {
+		width: 25%;
+		text-align: center;
+		color: #f75953;
+		padding: 12px 0;
+		cursor: pointer;
+	}
+
+		.sidebar #week-selector #backto {
+			float: left;
+			background: url(../img/left.png) center center no-repeat;
+			text-indent: -9999px;
+		}
+
+		.sidebar #week-selector #goto {
+			float: left;
+			background: url(../img/right.png) center center no-repeat;
+			text-indent: -9999px;
+		}
+
+		.sidebar #week-selector #week {
+			float: left;
+			width: 50%;
+			text-align: center;
+			padding: 12px 0;
+			color: #f75953;
+		}
+
+	.content #calendar {
+		overflow: hidden;
+	}
+
+		#jdb .sidebar .days {
+			color: #969fa8;
+			border-bottom: 1px solid #eaeaea;
+			padding: 12px 0;
+			margin: 0 auto;
+			position: relative;
+			height: 24px;
+		}
+
+		#jdb .sidebar .blockacentrer {
+			display: inline-block;
+			width: 130px;
+			height: 49px;
+			margin: 0 0 0 -65px;
+			position: absolute;
+			left: 50%;
+		}
+
+		#jdb .sidebar .number-date {
+			color: #f75953;
+		}
+
+		#jdb .sidebar .selected {
+			background: #f75953;
+			color: #ffffff;
+		}
+
+		#jdb .sidebar .selected .number-date {
+			color: #ffffff;
+		}
+
+label.addtest {
+	display: inline-block;
+	width: 24px;
+	height: 36px;
+	position: relative;
+	top: 21px;
+	background: url(../img/photo-ajout.png) no-repeat;
+	background-size: 75%;
+	margin: 5px 0 0 36px;
+}
+
+input.addtest {
+	border: none;
+	color: #333333;
+	cursor: pointer;
+}
+
+	.sidebar input:focus {
+		outline-color: #f75953;
+	}
+
+	#test-month li {
+		overflow: hidden;
+		line-height: 24px;
+	}
+
+	#test-month label.atester {
+		color: #333333;
+		margin: 12px auto;
+		float: left;
+		position: relative;
+		top: 10px;
+	}
+
+	#test-month input.alimenttest {
+		float: left;
+		position: relative;
+		top: 8px;
+		width: 275px;
+		margin: 12px 24px 12px;
+		border: none;
+	}
+
+	.good-test.active-test, .bad-test.active-test {
+		background-position: 0 0;
+	}
+
+	.good-test {
+		display: inline-block;
+		width: 15px;
+		height: 12px;
+		background: url(../img/good.png) no-repeat;
+		background-position: 0 -12px;
+		cursor: pointer;
+	}
+	.bad-test {
+		display: inline-block;
+		width: 15px;
+		height: 12px;
+		background: url(../img/notgood.png) no-repeat;
+		background-position: 0 -12px;
+		cursor: pointer;
+	}
+		.hidden-input {
+			display: none;
+		}
+
+	#test-month .week {
+		width: auto;
+		margin: 0 auto;
+		padding: 0 0 0 24px;
+	}
+
+	/* config notes jdb */
+
+	.inner-content h3 {
+		text-align: center;
+		color: #f75953;
+		font-size: 36px;
+		font-family: 'Lato';
+		font-weight: bold;
+		margin: 48px 0 72px;
+	}
+
+	#jdb .inner-content ul {
+		margin: 0 0 0 50px;
+		border-bottom: 1px solid #eaeaea;
+	}
+
+		#jdb .inner-content ul:last-child {
+			border: none;
+		}
+
+	.inner-content .photo-profil-jdb {
+		display: block;
+		width: 72px;
+		height: 73px;
+		float: left;
+		margin: 0 24px 0 0;
+		clear: left;
+	}
+
+
+		.inner-content .pp-patient {
+			background: url(../img/photo-patient.png) no-repeat;
+		}
+		.inner-content .pp-medecin {
+			background: url(../img/photo-medecin.png) no-repeat;
+		}
+
+		.inner-content .pp-ajout {
+			background: url(../img/photo-ajout.png) center no-repeat;
+			background-size: 50%;
+		}
+
+	#jdb .inner-content li {
+		clear: both;
+		overflow: hidden;
+		max-width: 775px;
+		margin: 0 0 72px;
+	}
+
+	#jdb .inner-content li p {
+		width: 500px;
+		float: left;
+		color: #333333;
+	}
+
+	.inner-content .digestion {
+		float: left;
+		display: block;
+		width: 50px;
+		margin: 25px 0 0 24px;
+	}
+
+		.inner-content .digestion label {
+			display: inline-block;
+			width: 15px;
+			height: 12px;
+			float: left;
+			margin: 0 12px 0 0;
+			cursor: pointer;
+		}
+
+			.inner-content .digestion label.active-test {
+				background-position: 0 0;
+			}
+
+			.inner-content .digestion label:nth-child(2) {
+				margin: 0;
+			}
+
+			.inner-content #good-digestion-dejeuner {
+				background: url(../img/good.png) no-repeat;
+				background-position: 0 -12px;
+			}
+
+			.inner-content #bad-digestion-dejeuner {
+				background: url(../img/notgood.png) no-repeat;
+				background-position: 0 -12px;
+			}
+
+			.inner-content #good-digestion-diner {
+				background: url(../img/good.png) no-repeat;
+				background-position: 0 -12px;
+			}
+
+			.inner-content #bad-digestion-diner {
+				background: url(../img/notgood.png) no-repeat;
+				background-position: 0 -12px;
+			}
+
+			.inner-content #good-digestion-souper {
+				background: url(../img/good.png) no-repeat;
+				background-position: 0 -12px;
+			}
+
+			.inner-content #bad-digestion-souper {
+				background: url(../img/notgood.png) no-repeat;
+				background-position: 0 -12px;
+			}
+
+		#jdb .inner-content input[type="radio"] {
+			display: none;
+		}
+
+#jdb .note-ajout form {
+	width: auto;
+	min-width: 50%;
+	max-width: 75%;
+	margin: 8px 0 0;
+}
+
+	#jdb .note-ajout form input {
+		width: auto;
+			min-width: 80%;
+			max-width: 90%;
+		height: auto;
+			min-height: 48px;
+			max-height: 200px;
+			border: none;
+		cursor: pointer;
+	}
+
+	#jdb .note-ajout form input:focus {
+		outline-color: #f75953;
+	}
+
+/* Profil */
+
+#profil .content {
+	overflow: hidden;
+	min-width: 1280px;
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+#profil .sidebar {
+	width: 386px;
+	float: left;
+	overflow: hidden;
+}
+
+#profil .sidebar li {
+	margin: 0 0 0 48px;
+}
+
+#profil .inner-content {
+	float: left;
+	width: 70%;
+	border-left: 1px solid #f75953;
+}
+
+#profil .sidebar h3 {
+	color: #f75953;
+	font-size: 24px;
+	text-align: center;
+	margin: 48px 0 48px;
+	clear: both;
+}
+
+#profil .inner-content .note-ajout form input {
+			border: none;
+			font-family: 'Lato';
+			font-size: 16px;
+		}
+
+	#profil .inner-content form {
+		width: auto;
+		margin: 0;
+	}
+
+/* profil sidebar */
+
+#profil .sidebar input:focus {
+	outline-color: #f75953;
+}
+
+#profil #box-photo-profil {
+	margin: 63px 0 0;
+}
+
+#profil #box-photo-profil form {
+	position: relative;
+	height: 165px;
+}
+
+#profil #box-photo-profil form input {
+	position: absolute;
+	left: 50%;
+	margin: 0 0 0 -82px;
+}
+
+	#profil #box-photo-profil form label {
+		position: absolute;
+		left: 58%;
+		z-index: 10000;
+		bottom: 0;
+	}
+
+#profil #box-photo-profil label {
+	display: inline-block;
+	width: 48px;
+	height: 48px;
+	background: url(../img/add-picture.png);
+}
+
+#profil #informations-generales {
+	margin: 0 0 48px;
+	overflow: hidden;
+}
+
+#profil #informations-generales .libelle {
+	display: block;
+	width: 100px;
+	color: #969fa8;
+	float: left;
+	clear: both;
+	cursor: pointer;
+	font-size: 14px;
+}
+
+	#profil #informations-generales li input {
+		float: left;
+		color: #333333;
+		border: none;
+		font-size: 16px;
+	}
+
+label.addpatient {
+	display: inline-block;
+	width: 24px;
+	height: 36px;
+	position: relative;
+	top: 21px;
+	background: url(../img/photo-ajout.png) no-repeat;
+	background-size: 75%;
+	margin: 5px 0 0 50px;
+}
+
+input.addpatient {
+	border: none;
+	color: #333333;
+	cursor: pointer;
+}
+
+#inscristoi {
+	display: inline-block;
+	height: 36px;
+	background: url(../img/photo-ajout.png) no-repeat;
+	background-size: 24px 24px;
+	margin: 5px 0 0 50px;
+	padding: 0 0 0 32px;
+	color: #333333;
+	text-decoration: none;
+}
+
+
+#profil #informations-patient {
+	margin: 0 0 48px;
+	overflow: hidden;
+}
+
+#profil #informations-patient .libelle {
+	display: block;
+	width: 100px;
+	color: #969fa8;
+	float: left;
+	clear: both;
+	cursor: pointer;
+	font-size: 14px;
+}
+
+	#profil #informations-patient li input {
+		float: left;
+		color: #333333;
+		border: none;
+		font-size: 16px;
+	}
+
+#profil #informations-supp li {
+	clear: both;
+	float: left;
+	cursor: pointer;
+	margin: 0 0 0 48px;
+}
+
+#profil #informations-supp li .libelle {
+	display: block;
+	width: 25px;
+	height: 25px;
+	float: left;
+	cursor: pointer;
+	margin: 0 48px 0 0;
+}
+
+#profil #informations-supp li input {
+	border: none;
+	font-size: 16px;
+	color: #333333;
+}
+
+#profil #informations-supp li #is-tel, #informations-supp li #is-mail {
+	float: left;
+}
+
+#profil #informations-supp li:nth-child(1) label {
+	background: url(../img/phone.png);
+}
+
+#profil #informations-supp li:nth-child(2) label {
+	background: url(../img/mail.png);
+}
+
+#profil #informations-supp li:nth-child(3) label {
+	background: url(../img/adresse.png);
+}
+
+
+/* Evolution traitement */
+
+#profil .evolution-traitement-graph {
+	height: 288px;
+	margin: 0 48px 96px 48px;
+	border-left: 1px solid #eaeaea;
+	border-bottom: 1px solid #eaeaea;
+	position: relative;
+}
+
+	#profil .evolution-traitement-graph li {
+		width: 6.3%;
+		height: 100%;
+		float: left;
+		margin: 0 1% 0;
+	}
+
+#profil .evolution-traitement-graph li .frequence-evo {
+	display: block;
+	border-radius: 20px;
+	width: 24px;
+	height: 24px;
+	line-height: 24px;
+	text-align: center;
+	color: #ffffff;
+	background: #f75953;
+	position: absolute;
+}
+
+#profil .evolution-traitement-graph li .month-evo {
+	display: block;
+	width: 24px;
+	height: 24px;
+	position: absolute;
+	bottom: 0;
+	margin: 0 0 -36px;
+	text-align: center;
+	color: #969fa8;
+}
+
+/* Particularités Profil */
+
+#profil .inner-content .particularite-traitement {
+	border: none;
+	overflow: hidden;
+	margin: 0 0 48px 48px;
+}
+
+	#profil .inner-content .particularite-traitement li:first-child input {
+		color: #f75953;
+		font-weight: bold;
+		margin: 0 0 24px;
+	}
+
+	#profil .inner-content .particularite-traitement li {
+		color: #333333;
+	}
+
+#profil .inner-content .amelioration-traitement {
+	border: none;
+	overflow: hidden;
+	margin: 0 0 48px 48px;
+}
+
+	#profil .inner-content .amelioration-traitement li:first-child input {
+		color: #f75953;
+		font-weight: bold;
+		margin: 0 0 24px;
+	}
+
+	#profil .inner-content .amelioration-traitement li {
+		color: #333333;
+	}
+
+#profil .inner-content input[type="text"] {
+	border: none;
+	width: 75%;
+}
+
+	#profil .inner-content input[type="text"]:focus {
+		outline-color: #f75953;
+	}
+
+/* Consultations */
+
+#consultation .content {
+	overflow: hidden;
+	min-width: 1280px;
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+#consultation .sidebar {
+	width: 386px;
+	float: left;
+	overflow: hidden;
+}
+
+#consultation .sidebar li {
+	margin: 0 0 0 48px;
+}
+
+#consultation .inner-content {
+	float: left;
+	width: 70%;
+	border-left: 1px solid #f75953;
+}
+
+#consultation .sidebar h3 {
+	color: #f75953;
+	font-size: 24px;
+	text-align: center;
+	margin: 48px 0 48px;
+	clear: both;
+}
+
+#consultation .inner-content .note-ajout form input {
+			border: none;
+			font-family: 'Lato';
+			font-size: 16px;
+		}
+
+	#consultation .inner-content form {
+		width: auto;
+		margin: 0;
+	}
+
+/* consultation sidebar */
+
+#consultation .sidebar input:focus {
+	outline-color: #f75953;
+}
+
+#consultation #box-photo-profil {
+	margin: 63px 0 0;
+}
+
+#consultation #box-photo-profil form {
+	position: relative;
+	height: 165px;
+}
+
+#consultation #box-photo-profil form input {
+	position: absolute;
+	left: 50%;
+	margin: 0 0 0 -82px;
+}
+
+	#consultation #box-photo-profil form label {
+		position: absolute;
+		left: 58%;
+		z-index: 10000;
+		bottom: 0;
+	}
+
+#consultation #box-photo-profil label {
+	display: inline-block;
+	width: 48px;
+	height: 48px;
+	background: url(../img/add-picture.png);
+}
+
+#consultation #informations-patient {
+	margin: 0 0 48px;
+	overflow: hidden;
+}
+
+#consultation #informations-patient .libelle {
+	display: block;
+	width: 100px;
+	color: #969fa8;
+	float: left;
+	clear: both;
+	cursor: pointer;
+	font-size: 14px;
+}
+
+	#consultation #informations-patient li input {
+		float: left;
+		color: #333333;
+		border: none;
+		font-size: 16px;
+	}
+
+
+#consultation #informations-patient {
+	margin: 0 0 48px;
+	overflow: hidden;
+}
+
+#consultation #informations-patient .libelle {
+	display: block;
+	width: 100px;
+	color: #969fa8;
+	float: left;
+	clear: both;
+	cursor: pointer;
+	font-size: 14px;
+}
+
+	#consultation #informations-patient li input {
+		float: left;
+		color: #333333;
+		border: none;
+		font-size: 16px;
+	}
+
+#consultation #informations-patient li {
+	clear: both;
+	float: left;
+	cursor: pointer;
+	margin: 0 0 0 48px;
+}
+
+#consultation #informations-patient li .libelle {
+	display: block;
+	width: 25px;
+	height: 25px;
+	float: left;
+	cursor: pointer;
+	margin: 0 48px 0 0;
+}
+
+#consultation #informations-patient li input {
+	border: none;
+	font-size: 16px;
+	color: #333333;
+}
+
+#consultation #informations-patient li #is-tel, #informations-patient li #is-mail {
+	float: left;
+}
+
+#consultation #informations-patient li:nth-child(1) label {
+	background: url(../img/phone.png);
+}
+
+#consultation #informations-patient li:nth-child(2) label {
+	background: url(../img/mail.png);
+}
+
+#consultation #informations-patient li:nth-child(3) label {
+	background: url(../img/adresse.png);
+}
+
+/* config note medecin */
+
+#consultation .inner-content ul {
+		margin: 0 0 0 50px;
+		border-bottom: 1px solid #eaeaea;
+	}
+
+		#consultation .inner-content ul:last-child {
+			border: none;
+		}
+
+	#consultation .inner-content .photo-profil-jdb {
+		display: block;
+		width: 72px;
+		height: 73px;
+		float: left;
+		margin: 0 24px 0 0;
+	}
+
+
+		#consultation .inner-content .pp-patient {
+			background: url(../img/photo-patient.png) no-repeat;
+		}
+		#consultation .inner-content .pp-medecin {
+			background: url(../img/photo-medecin.png) no-repeat;
+			margin: 24px 0 0;
+		}
+
+		#consultation .inner-content .pp-ajout {
+			background: url(../img/photo-ajout.png) center no-repeat;
+			background-size: 50%;
+		}
+
+	#consultation .inner-content li {
+		clear: both;
+		overflow: hidden;
+		max-width: 775px;
+		margin: 0 0 72px;
+	}
+
+	#consultation .inner-content li.note-patient {
+		border-bottom: 1px solid #eaeaea;
+		padding: 0 0 72px;
+	}
+
+	#consultation .inner-content li p {
+		width: 500px;
+		float: left;
+		color: #333333;
+	}
+
+		#consultation .inner-content li .pp-medecin + p {
+			margin: 24px 0 0 24px;
+		}
+
+	#consultation .inner-content .digestion {
+		float: left;
+		display: block;
+		width: 50px;
+		margin: 25px 0 0 24px;
+	}
+
+		#consultation .inner-content .digestion label {
+			display: inline-block;
+			width: 15px;
+			height: 12px;
+			float: left;
+			margin: 0 12px 0 0;
+		}
+
+			#consultation .inner-content .digestion label:nth-child(2) {
+				margin: 0;
+			}
+
+			#consultation .inner-content #good-digestion-dejeuner {
+				background: url(../img/good.png) no-repeat;
+			}
+
+			#consultation .inner-content #bad-digestion-dejeuner {
+				background: url(../img/notgood.png) no-repeat;
+			}
+
+			#consultation .inner-content #good-digestion-diner {
+				background: url(../img/good.png) no-repeat;
+			}
+
+			#consultation .inner-content #bad-digestion-diner {
+				background: url(../img/notgood.png) no-repeat;
+			}
+
+			#consultation .inner-content #good-digestion-souper {
+				background: url(../img/good.png) no-repeat;
+			}
+
+			#consultation .inner-content #bad-digestion-souper {
+				background: url(../img/notgood.png) no-repeat;
+			}
+
+		#consultation .inner-content input[type="radio"] {
+			display: none;
+		}
+
+		#consultation .inner-content input[type="radio"] {
+			display: none;
+		}
+
+#consultation .note-ajout {
+	float: left;
+	clear: both;
+	width: 100%;
+	margin: 32px 0 0 0;
+}
+
+#consultation .note-ajout form {
+	width: auto;
+	min-width: 50%;
+	max-width: 75%;
+	margin: 8px 0 0;
+	float: left;
+}
+
+	#consultation .note-ajout form input {
+		width: auto;
+			min-width: 80%;
+			max-width: 90%;
+		height: auto;
+			min-height: 48px;
+			max-height: 200px;
+			border: none;
+		cursor: pointer;
+	}
+
+	#consultation .note-ajout form input:focus {
+		outline-color: #f75953;
+	}
+
+/* Patients */
+
+#patients .content {
+	overflow: hidden;
+	min-width: 1280px;
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+#patients .sidebar {
+	width: 386px;
+	float: left;
+	overflow: hidden;
+}
+
+#patients .sidebar li {
+	margin: 0 0 0 48px;
+}
+
+#patients .inner-content {
+	float: left;
+	width: 70%;
+	border-left: 1px solid #f75953;
+}
+
+#patients .sidebar h3 {
+	color: #f75953;
+	font-size: 24px;
+	text-align: center;
+	margin: 48px 0 48px;
+	clear: both;
+}
+
+#patients .inner-content .note-ajout form input {
+			border: none;
+			font-family: 'Lato';
+			font-size: 16px;
+		}
+
+	#patients .inner-content form {
+		width: auto;
+		margin: 0;
+	}
+
+/* patients sidebar */
+
+#patients .sidebar input:focus {
+	outline-color: #f75953;
+}
+
+#patients #box-photo-profil {
+	margin: 63px 0 0;
+}
+
+#patients #box-photo-profil form {
+	position: relative;
+	height: 165px;
+}
+
+#patients #box-photo-profil form input {
+	position: absolute;
+	left: 50%;
+	margin: 0 0 0 -82px;
+}
+
+	#patients #box-photo-profil form label {
+		position: absolute;
+		left: 58%;
+		z-index: 10000;
+		bottom: 0;
+	}
+
+#patients #box-photo-profil label {
+	display: inline-block;
+	width: 48px;
+	height: 48px;
+	background: url(../img/add-picture.png);
+}
+
+#patients #informations-patient {
+	margin: 0 0 48px;
+	overflow: hidden;
+}
+
+#patients #informations-patient .libelle {
+	display: block;
+	width: 100px;
+	color: #969fa8;
+	float: left;
+	clear: both;
+	cursor: pointer;
+	font-size: 14px;
+}
+
+	#patients #informations-patient li input {
+		float: left;
+		color: #333333;
+		border: none;
+		font-size: 16px;
+	}
+
+
+#patients #informations-patient {
+	margin: 0 0 48px;
+	overflow: hidden;
+}
+
+#patients #informations-patient .libelle {
+	display: block;
+	width: 100px;
+	color: #969fa8;
+	float: left;
+	clear: both;
+	cursor: pointer;
+	font-size: 14px;
+}
+
+	#patients #informations-patient li input {
+		float: left;
+		color: #333333;
+		border: none;
+		font-size: 16px;
+	}
+
+#patients #informations-patient li {
+	clear: both;
+	float: left;
+	cursor: pointer;
+	margin: 0 0 0 48px;
+}
+
+#patients #informations-patient li .libelle {
+	display: block;
+	width: 25px;
+	height: 25px;
+	float: left;
+	cursor: pointer;
+	margin: 0 48px 0 0;
+}
+
+#patients #informations-patient li input {
+	border: none;
+	font-size: 16px;
+	color: #333333;
+}
+
+#patients #informations-patient li #is-tel, #informations-patient li #is-mail {
+	float: left;
+}
+
+#patients #informations-patient li:nth-child(1) label {
+	background: url(../img/phone.png);
+}
+
+#patients #informations-patient li:nth-child(2) label {
+	background: url(../img/mail.png);
+}
+
+#patients #informations-patient li:nth-child(3) label {
+	background: url(../img/adresse.png);
+}
+
+/* config note medecin */
+
+#patients .inner-content ul {
+		margin: 0 0 0 50px;
+	}
+
+#patients .inner-content li {
+	clear: both;
+	overflow: hidden;
+	max-width: 775px;
+	margin: 0 0 48px;
+	padding-bottom: 48px;
+	border-bottom: 1px solid #eaeaea;
+}
+
+#patients .inner-content li p {
+	width: 500px;
+	float: left;
+	color: #333333;
+}
+
+#patients li .informations-utiles  .telephone, #patients li .informations-utiles  .email {
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+}
+
+	#patients li .informations-utiles  .telephone {
+		background: url(../img/phone.png) 0 5px no-repeat;
+	}
+
+	#patients li .informations-utiles  .email {
+		background: url(../img/mail.png) 0 5px no-repeat;
+	}
+
+/* footer */
+
+footer {
+	height: 338px;
+	background: #f75953;
+	overflow: hidden;
+	position: relative;
+	top: 48px;
+}
+
+footer #center-box {
+	margin: 0 auto;
+	display: block;
+	width: 790px;
+}
+
+footer .info-footer {
+	width: 230px;
+	color: #ffffff;
+	float: left;
+	margin: 24px 48px 0 0;
+}
+
+footer .info-footer:last-child {
+	margin: 24px 0 0;
+}
+
+
+	footer .info-footer li:first-child {
+		border-bottom:  1px solid #ffffff;
+		padding: 24px 0;
+		margin: 0 0 24px;
+		text-transform: uppercase;
+		font-weight: bold;
+	}
+
+	footer .info-footer li {
+		line-height: 24px;
+		padding: 0 0 6px;
+	}
+
+		footer .info-footer li a {
+			text-decoration: none;
+			color: #ffffff;
+		}
+
+footer .copyright {
+	height: 24px;
+	line-height: 24px;
+	font-size: 10px;
+	color: #ffffff;
+	text-align: center;
+	border-top: 1px solid #ffffff;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}

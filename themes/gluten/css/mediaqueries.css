@@ -1,0 +1,2679 @@
+/* ---------------- Tablette 768°1024 ----- */
+
+/* ----------------------------- PAGE INDEX */
+
+@media(max-width:1024px) {
+
+	body {
+		overflow-x: hidden;
+	}
+
+	#index #banner {
+		background: url(../img/banner-accueil.jpg) no-repeat;
+		-webkit-background-size: cover;
+			-moz-background-size: cover;
+				-o-background-size: cover;
+					-ms-background-size: cover;
+						background-size: cover;
+	}
+
+	#apropos #banner {
+		background: url(../img/banner-apropos.jpg) no-repeat;
+		-webkit-background-size: cover;
+			-moz-background-size: cover;
+				-o-background-size: cover;
+					-ms-background-size: cover;
+						background-size: cover;
+	}
+
+	#dictionary #banner {
+		background: url(../img/banner-dictionary.jpg) no-repeat;
+		-webkit-background-size: cover;
+			-moz-background-size: cover;
+				-o-background-size: cover;
+					-ms-background-size: cover;
+						background-size: cover;
+	}
+
+	#belgobelge #banner {
+		background: url(../img/banner-belgobelge.jpg) no-repeat;
+		-webkit-background-size: cover;
+			-moz-background-size: cover;
+				-o-background-size: cover;
+					-ms-background-size: cover;
+						background-size: cover;
+	}
+
+	#omnitemps #banner {
+		background: url(../img/banner-omnitemps.jpg) no-repeat;
+		-webkit-background-size: cover;
+			-moz-background-size: cover;
+				-o-background-size: cover;
+					-ms-background-size: cover;
+						background-size: cover;
+	}
+
+	#wkid #banner {
+		background: url(../img/banner-wkid.jpg) no-repeat;
+		-webkit-background-size: cover;
+			-moz-background-size: cover;
+				-o-background-size: cover;
+					-ms-background-size: cover;
+						background-size: cover;
+	}
+
+	#ecampus #banner {
+		background: url(../img/banner-ecampus.jpg) no-repeat;
+		-webkit-background-size: cover;
+			-moz-background-size: cover;
+				-o-background-size: cover;
+					-ms-background-size: cover;
+						background-size: cover;
+	}
+
+	#pagequatrecentquatre #banner {
+		background: url(../img/page404-1.jpg) no-repeat;
+		background-attachment: scroll;
+		-webkit-background-size: cover;
+			-moz-background-size: cover;
+				-o-background-size: cover;
+					-ms-background-size: cover;
+						background-size: cover;
+
+		-webkit-animation: bgmove-tablette 5s infinite ease-in-out;
+			-moz-animation: none;
+				-o-animation: none;
+					animation: none;
+	}
+
+}
+
+@media(max-width:1023px) {
+
+	body {
+		overflow-x: hidden;
+	}
+
+	#container-header {
+		width: 100%;
+	}
+
+	#container-header header {
+		width: 672px;
+	}
+
+	#container-header header h1 {
+		margin: 0;
+	}
+
+	#container-header header ul {
+		top: -31px;
+		right: 0;
+	}
+
+	#banner {
+		width: 100%;
+		height: 300px;
+	}
+
+	#container {
+		width: 672px;
+	}
+
+		#portfolio #container  {
+			width: 672px;
+		}
+
+	#container .visual-link {
+		height: 314px;
+		width: 324px;
+	}
+
+	#index #bienvenue {
+		top: 71px;
+		left: 308px;
+	}
+
+	#index #jeunewd {
+		top: 83px;
+		left: 308px;
+	}
+
+	#index #banner .dynamic-link {
+		left: 308px;
+		top: 144px;
+	}
+
+	#index #banner {
+		background: url(../img/banner-accueil.jpg) no-repeat;
+		-webkit-background-size: cover;
+			-moz-background-size: cover;
+				-o-background-size: cover;
+					-ms-background-size: cover;
+						background-size: cover;
+	}
+
+
+/* ... Ce que  je fais ... */
+
+	#index #container #content #cequejefais {
+		float: left;
+		width: 768px;
+		margin: -10px 0 0;
+		overflow: hidden;
+		position: relative;
+	}
+
+	#index #container #content #cequejefais .visual-link {
+		float: left;
+		margin: 0 24px 0 0;
+		background: url(../img/cequejefais-accueil-tablette.jpg) no-repeat;
+	}
+
+	#index #container #content #cequejefais h2 {
+		margin: 2px 0 46px;
+	}
+
+	#index #container #content #cequejefais h3 {
+		width: 325px;
+		float: left;
+		margin: -6px 0 0;
+	}
+
+	#index #container #content #cequejefais p {
+		width: 325px;
+		float: left;
+		font-size: 14px;
+		line-height: 24px;
+	}
+
+	#index #container #content #cequejefais .dynamic-link {
+			width: 324px;
+			position: absolute;
+			left: 0;
+			top: 311px;
+	}
+
+/* ... Comment je le fais ... */
+
+	#index #container #content #commentjelefais {
+		width: 768px;
+		overflow: hidden;
+		position: relative;
+		margin: 0 0 21px;
+	}
+
+	#index #container #content #commentjelefais h2 {
+		margin: 108px 0 46px;
+	}
+
+	#index #container #content #commentjelefais .visual-link {
+		margin: 0 0 40px; 
+		float: right;
+		position: relative;
+		right: 95px;
+		top: 2px;
+		background: url(../img/commentjelefais-accueil-tablette.jpg) no-repeat;
+	}
+
+	#index #container #content #commentjelefais h3 {
+		width: 325px;
+		float: left;
+		margin: -6px 0 0;
+	}
+
+	#index #container #content #commentjelefais p {
+		width: 325px;
+		float: left;
+		font-size: 14px;
+		line-height: 24px;
+	}
+
+	#index #container #content #commentjelefais .dynamic-link {
+			width: 324px;
+			position: absolute;
+			right: 95px;
+			top: 394px;
+	}
+
+/* ----------------------------- LANDINGPAGE */
+
+#tanguy #container {
+	width: 768px;
+}
+
+#tanguy #container ul li {
+	width: 768px;
+	height: 560px;
+}
+
+			#tanguy #container ul li#slide-f {
+				height: 768px;
+				padding: 0 0 48px;
+			}
+
+/* ----------------------------- PAGE 404ERREUR */
+
+	#pagequatrecentquatre #banner {
+		background: url(../img/page404-1-mobile.jpg) center no-repeat;
+		background-attachment: scroll;
+		-webkit-background-size: cover;
+			-moz-background-size: cover;
+				-o-background-size: cover;
+					-ms-background-size: cover;
+						background-size: cover;
+
+		-webkit-animation: bgmove 5s infinite ease-in-out;
+			-moz-animation: none;
+				-o-animation: none;
+					animation: none;
+	}
+
+	#pagequatrecentquatre #paragraphe-premier {
+		top: 71.767528%;
+		left: 50%;
+		margin: 0 0 0 -186px;
+		background: url(../img/dynamic-text.png);
+	}
+
+	#pagequatrecentquatre #paragraphe-second {
+		top: 75.262244%;
+		left: 50%;
+		margin: 0 0 0 -186px;
+		background: url(../img/dynamic-text.png);
+	}
+
+	#pagequatrecentquatre #banner #paragraphe-tertiaire {
+		top: 63.5%;
+		left: 50%;
+		margin: 48px 0 0 -50px;
+		width: 100px;
+	}
+
+		#pagequatrecentquatre #banner #paragraphe-tertiaire a {
+			text-indent: -9999px;
+			display: block;
+			background: url(../img/direction.png);
+			line-height: 36px;
+			height: 36px;
+		}
+
+	#pagequatrecentquatre #sitemap {
+		width: 672px;
+		background: url(../img/sitemap-tablette.png) no-repeat;
+		background-position: 0 88px; 
+	}
+
+/* ----------------------------- PAGE PORTFOLIO */
+
+	#portfolio #container #content h2 {
+		margin: 32px 0 16px;
+	}
+
+	#portfolio #container #content h3 {
+		margin: 0 0 24px;
+		width: 325px;
+		float: left;
+	}
+
+	#portfolio #container #content p {
+		margin: 0 0 16px;
+		width: 325px;
+		float: left;
+	}
+
+	#portfolio #container #content .dynamic-link {
+		width: 324px;
+		position: absolute;
+		top: 311px;
+	}
+
+		#portfolio #container #content .dynamic-link:hover {
+			background-position: 0 0;
+		}
+
+/*.. Dictionary ..*/
+
+	#portfolio #container #content #dictionary {
+		position: relative;
+		margin: 0;
+		padding: 0 0 48px;
+		width: 673px;
+	}
+
+	#portfolio #container #content #dictionary p {
+		margin: 0 0 16px;
+		font-size: 14px;
+		line-height: 24px;	
+	}
+
+	#portfolio #container #content #dictionary .visual-link {
+		height: 314px;
+		width: 324px;
+		margin: 0 24px 0 0;
+		background: url(../img/dictionary-portfolio-tablette.jpg) no-repeat;	
+	}
+		
+	#portfolio #container #content #dictionary .dynamic-link {
+		margin: 12px 0 0;
+		top: 350px;
+	}
+
+/*.. BelgoBelge ..*/
+
+	#portfolio #container #content #belgobelge {
+		position: relative;
+		margin: 0;
+		padding: 0 0 68px;
+		width: 673px;
+	}
+
+	#portfolio #container #content #belgobelge h2 {
+		margin: 46px 0 20px;
+	}
+
+	#portfolio #container #content #belgobelge p {
+		margin: 0 0 24px 0;
+		font-size: 14px;
+		line-height: 24px;	
+	}
+
+	#portfolio #container #content #belgobelge .visual-link {
+		height: 313px;
+		width: 324px;
+		margin: 0 0 0 24px;
+		background: url(../img/belgobelge-portfolio-tablette.jpg) no-repeat;
+	}
+
+	#portfolio #container #content #belgobelge .dynamic-link {
+		margin: 12px 0 0;
+		top: 367px;
+		right: 0;
+	}
+
+/*.. Omnitemps ..*/
+
+	#portfolio #container #content #omnitemps {
+		position: relative;
+		margin: 0;
+		padding: 0 0 68px;
+		width: 673px;
+	}
+
+	#portfolio #container #content #omnitemps h2 {
+		margin: 42px 0 19px;
+	}
+
+	#portfolio #container #content #omnitemps p {
+		margin: 0 0 24px 0;
+		font-size: 14px;
+		line-height: 24px;	
+	}
+
+	#portfolio #container #content #omnitemps .visual-link {
+		height: 314px;
+		width: 324px;
+		margin: 0 24px 0 0;
+		background: url(../img/omnitemps-portfolio-tablette.jpg) no-repeat;
+		float: left;
+	}
+		
+	#portfolio #container #content #omnitemps .dynamic-link {
+		margin: 12px 0 0;
+		top: 364px;
+	}
+
+
+/*.. Workshop - Wkid ..*/
+
+	#portfolio #container #content #wkid {
+		position: relative;
+		margin: 0;
+		padding: 0 0 44px;
+		width: 673px;
+	}
+
+	#portfolio #container #content #wkid h2 {
+		margin: 46px 0 16px;
+	}
+
+	#portfolio #container #content #wkid h3 {
+		margin: 0 0 23px;
+	}	
+
+	#portfolio #container #content #wkid p {
+		margin: 0 0 24px 0;
+		font-size: 14px;
+		line-height: 24px;	
+	}
+
+	#portfolio #container #content #wkid .visual-link {
+		height: 313px;
+		width: 324px;
+		margin: 0 0 0 24px;
+		background: url(../img/wkid-portfolio-tablette.jpg) no-repeat;
+	}
+
+	#portfolio #container #content #wkid .dynamic-link {
+		margin: 12px 0 0;
+		top: 363px;
+		right: 0;
+	}
+
+/* ----------------------------- PAGE APROPOS */
+
+	#apropos #banner {
+		width: 100%;
+		height: 300px;
+		background: url(../img/banner-apropos.jpg) no-repeat;
+		-webkit-background-size: cover;
+			-moz-background-size: cover;
+				-o-background-size: cover;
+					-ms-background-size: cover;
+						background-size: cover;
+	}
+
+	#apropos #banner h2 {
+		left: 6.222222222222222222222222222222%;
+		top: 180px;
+	}
+
+	#apropos #titre-mobile-infos-persos {
+		font-size: 18px;
+		line-height: 36px;
+		margin: 11px 0 19px;
+		width: 350px;
+	}
+
+	#apropos #texte-infos-mobile p {
+		width: 312px;
+		font-size: 14px;
+		line-height: 24px;
+	}
+
+	#apropos #container #content #recherchereflexion, 
+	#apropos #container #content #croquiswireframe {
+		padding: 0 0 42px;
+		margin: 0 0 37px;
+	}
+
+	#apropos #container #content #delivrablesmaj {
+		overflow: hidden;
+		padding: 0 0 96px; 
+	}
+
+	#apropos #container #content h2 {
+		font-size: 24px;
+		color: #111111;
+		text-align: center;
+		font-family: 'museoslab';
+		margin: 10px 0 40px;
+		cursor: default;
+	}
+
+		.number-process {
+			color: #fbb03b;
+		}
+
+/*.. RecherchesetReflexion ..*/
+
+	#apropos #container #content #recherchereflexion {
+		overflow: hidden;
+	}
+
+	#apropos #container #content #recherchereflexion .visual-link {
+		background: url(../img/recherche-apropos-tablette.jpg) no-repeat;
+		float: right;
+		position: relative;
+		top: 58px;
+		left: 0;
+		width: 324px;
+		height: 321px;
+	}
+
+	#apropos #container #content #recherchereflexion h3 {
+		float: left;
+		color: #fbb03b;
+		font-size: 18px;
+		line-height: 24px;
+		font-family: 'museoslab';
+		margin: 4px 0 25px;
+		width: 324px;
+		cursor: default;
+	}
+
+	#apropos #container #content #recherchereflexion p {
+		width: 324px;
+		font-size: 14px;
+		line-height: 24px;
+	}
+
+/*.. CroquisetWireframe ..*/
+
+	#apropos #container #content #croquiswireframe .visual-link {
+		background: url(../img/wireframe-apropos-tablette.jpg) no-repeat;
+		width: 324px;
+		margin: -4px 24px 0 0;
+	}
+
+	#apropos #container #content #croquiswireframe h2 {
+		margin: 10px 0 44px;
+	}
+
+	#apropos #container #content #croquiswireframe h3 {
+		font-size: 18px;
+		line-height: 24px;
+		margin: 0px 0 25px;
+		width: 324px;
+	}
+
+	#apropos #container #content #croquiswireframe p {
+		margin: 0 0 24px;
+		width: 324px;
+		font-size: 14px;
+		line-height: 24px;
+	}
+
+	#apropos #container #content #croquiswireframe .retouche-margin {
+		margin: 0 0 24px;
+	}
+
+
+/*.. DeveloppementetCode ..*/
+
+	#apropos #container #content #developpementcode {
+		margin: 0 0 38px;
+		padding: 0 0 90px;
+		height: 468px;
+	}
+
+	#apropos #container #content #developpementcode .visual-link {
+		background: url(../img/developpement-apropos-tablette.jpg) no-repeat;
+		top: 55px;
+		left: 0;
+		width: 324px;
+	}
+
+	#apropos #container #content #developpementcode h2 {
+		margin: 6px 0 44px;
+	}
+
+	#apropos #container #content #developpementcode h3 {
+		font-size: 18px;
+		line-height: 24px;
+		margin: 0 0 25px;
+		width: 324px;
+	}
+
+	#apropos #container #content #developpementcode p {
+		margin: 0 0 23px;
+		width: 324px;
+		font-size: 14px;
+		line-height: 24px;
+	}
+
+/*.. DelivrablesetMaj ..*/
+
+	#apropos #container #content #delivrablesmaj {
+		padding: 0 0 40px;
+	}
+
+	#apropos #container #content #delivrablesmaj .visual-link {
+		background: url(../img/delivrable-apropos-tablette.jpg) no-repeat;
+		top: 55px;
+		width: 324px;
+		margin: 0 24px 0 0;
+	}
+
+	#apropos #container #content #delivrablesmaj h2 {
+		margin: 10px 0 44px;
+	}
+
+	#apropos #container #content #delivrablesmaj h3 {
+		font-size: 18px;
+		line-height: 24px;
+		margin: 0 0 24px;
+		width: 324px;
+	}
+
+	#apropos #container #content #delivrablesmaj p {
+		font-size: 14px;
+		line-height: 24px;
+		margin: 0 0 24px;
+		width: 324px;
+	}
+
+	#apropos #container #content #delivrablesmaj .retouche-margin {
+		margin: 0 0 24px;
+	}
+
+/* ----------------------------- PAGE CONTACT */
+
+	#contact #container h2 {
+		font-size: 24px;
+		margin: -2px 0 48px;
+		cursor: default;
+	}
+
+	#contact #container ul {
+		margin: -8px 0 6px;
+		overflow: hidden;
+	}
+
+	#contact #container #titre-formulaire {
+		padding: 48px 0 0;
+		margin: 44px 0 47px;
+		font-size: 18px;
+	}
+
+		#contact #container li {
+			float: left;
+			width: 324px;
+			margin: 0 28px 0 0;
+		}
+
+		#contact #container li h4 {
+			margin: 4px 30px 0 0;
+			font-size: 18px;
+			line-height: 24px;
+		}
+
+		#contact #container li p {
+			margin: 6px 0 0;
+			font-size: 14px;
+			line-height: 24px;
+		}
+
+		#contact #container li a {
+			margin: 6px 0 0;
+			font-size: 14px;
+			line-height: 24px;
+		}
+
+		#contact #container form input, 
+		#contact #container form label, 
+		#contact #container form textarea {
+			font-size: 14px;
+			line-height: 24px;
+		}
+
+		#contact #container form input {
+			margin: 16px 0 20px 0;
+			padding: 10px 6px;
+			color: #fbb03b;
+			width: 396px;
+		}
+
+			#contact #container form div:nth-child(2) label {
+				margin: 12px 0 0;
+			}
+
+			#contact #container form div:nth-child(3) label {
+				margin: 12px 0 0;
+			}
+
+		#contact #container form textarea {
+			margin: 16px 0 24px;
+			padding: 14px 6px;
+			max-width: 398px;
+			min-width: 398px;
+		}
+
+			#contact #container form #envoyermessage {
+				margin: 23px 0 52px;
+				width: 411px;
+			}
+
+			#message-ok #container-header ul {
+				margin: 41px 0 43px;
+			}
+
+		#message-ok  h3 {
+			width: 300px;
+			text-align: center;
+			position: absolute;
+			height: 24px;
+			line-height: 24px;
+			top: 90%;
+			left: 50%;
+			margin: -18px 0 0 -150px;
+			color: #ffffff;
+			font-size: 16px;
+			background: url(../img/dynamic-text.png);
+		}
+
+/* ----------------------------- PAGE DICTIONARY */
+
+	#dictionary #banner {
+		width: 100%;
+		height: 300px;
+		background: url(../img/banner-dictionary.jpg) no-repeat;
+		-webkit-background-size: cover;
+			-moz-background-size: cover;
+				-o-background-size: cover;
+					-ms-background-size: cover;
+						background-size: cover;
+	}
+
+	#dictionary #description-dictionary h3 {
+		font-size: 18px;
+		line-height: 24px;
+		margin: 18px 0 26px;
+		width: 324px;
+	}
+
+	#dictionary #content #description-dictionary p {
+		width: 324px;
+		font-size: 14px;
+		line-height: 24px;
+	}
+
+	#dictionary #content #description-dictionary {
+		margin: 0 0 68px;
+	}
+
+	#dictionary .visuel-compo {
+		width: 672px;
+		height: 362px;
+		margin: -2px 0 46px;
+		background: url(../img/dictionary-ambiance-1-tablette.jpg);
+	}
+
+	#dictionary .navigation-projets li {
+		width: 208px;
+		font-size: 14px;
+		line-height: 36px;
+	}
+
+/* ----------------------------- PAGE BELGOBELGE */
+
+	#belgobelge #banner {
+		width: 100%;
+		height: 300px;
+		background: url(../img/banner-belgobelge.jpg) no-repeat;
+		-webkit-background-size: cover;
+			-moz-background-size: cover;
+				-o-background-size: cover;
+					-ms-background-size: cover;
+						background-size: cover;
+	}
+
+	#belgobelge h3 {
+		font-size: 18px;
+		line-height: 24px;
+		margin: 18px 0 26px;
+		width: 324px;
+	}
+
+	#belgobelge #content p {
+		width: 324px;
+		font-size: 14px;
+		line-height: 24px;
+	}
+
+	#belgobelge #content .nomargin {
+		margin: -1px 0 41px;
+	}
+
+	#belgobelge #content p {
+		width: 324px;
+		font-size: 14px;
+		line-height: 24px;
+	}
+
+		#belgobelge #content p a {
+			font-size: 14px;
+			line-height: 24px;
+		}
+
+	#belgobelge .navigation-projets li {
+		width: 208px;
+		font-size: 14px;
+		line-height: 36px;
+	}
+
+/* ----------------------------- PAGE OMNITEMPS */
+
+	#omnitemps #banner {
+		width: 100%;
+		height: 300px;
+		background: url(../img/banner-omnitemps.jpg) no-repeat;
+		-webkit-background-size: cover;
+			-moz-background-size: cover;
+				-o-background-size: cover;
+					-ms-background-size: cover;
+						background-size: cover;	
+	}
+
+	#omnitemps h3 {
+		font-size: 18px;
+		line-height: 24px;
+		margin: 18px 0 26px;
+		width: 324px;
+	}
+
+	#omnitemps #content p {
+		width: 324px;
+		font-size: 14px;
+		line-height: 24px;
+	}
+
+	#omnitemps #content .nomargin {
+		margin: -1px 0 72px;
+	}
+
+		#omnitemps #content .visuel-compo {
+			width: 672px;
+			height: 362px;
+			margin: 0 0 46px;
+			background: url(../img/omnitemps-ambiance-1-tablette.jpg) no-repeat;
+		}
+
+	#omnitemps .navigation-projets li {
+		width: 208px;
+		font-size: 14px;
+		line-height: 36px;
+	}
+
+/* ----------------------------- PAGE WKID */
+
+	#wkid #banner {
+		width: 100%;
+		height: 300px;
+		background: url(../img/banner-wkid.jpg) no-repeat;
+		-webkit-background-size: cover;
+			-moz-background-size: cover;
+				-o-background-size: cover;
+					-ms-background-size: cover;
+						background-size: cover;		
+	}
+
+	#wkid h3 {
+		font-size: 18px;
+		line-height: 24px;
+		margin: 18px 0 26px;
+		width: 324px;
+	}
+
+		#wkid #description-wkid #wkid-sequence-a li, 
+		#wkid #description-wkid #wkid-sequence-b li, 
+		#wkid #description-wkid #wkid-sequence-c li {
+			width: 324px;
+			float: left;
+			color: #333333;
+		}
+
+	#wkid #description-wkid #wkid-sequence-a .wkid-visuel-sa {
+		background: url(../img/wkid-ambiance-1-tablette.jpg);
+		height: 503px;
+		margin: 84px 0 24px 24px;
+	}
+
+	#wkid #description-wkid #wkid-sequence-a p {
+		margin: 23.23456789px 0 0;
+		width: 324px;
+		font-size: 14px;
+		line-height: 24px;
+	}
+
+		#wkid #description-wkid #wkid-sequence-a p a {
+			font-size: 14px;
+			line-height: 24px;
+		}
+
+	#wkid #description-wkid #wkid-sequence-b .wkid-visuel-sb {
+		height: 336px;
+	}
+
+		#wkid #description-wkid #wkid-sequence-b .wkid-visuel-sb {
+			background: url(../img/wkid-ambiance-2-tablette.jpg);
+			margin: 0 24px 0 0;
+		}
+
+		#wkid #description-wkid #wkid-sequence-b .wkid-visuel-sbis {
+			background: url(../img/wkid-ambiance-3-tablette.jpg);
+			margin: 0;
+		}
+
+	#wkid #description-wkid #wkid-sequence-b li {
+		margin: 64px 24px 0 0;
+	}
+
+		#wkid #description-wkid #wkid-sequence-b li p {
+			font-size: 14px;
+			line-height: 24px;
+			margin: 24px 0 0;
+		}
+
+		#wkid #description-wkid #wkid-sequence-b p a {
+			font-size: 14px;
+			line-height: 24px;
+		}
+
+	#wkid #description-wkid #wkid-sequence-b .bugmargin {
+		margin: 32px 24px 24px 0;
+	}
+
+	#wkid #description-wkid #wkid-sequence-b .nomargin {
+		margin: 32px 0 24px;
+	}
+
+	#wkid #description-wkid #wkid-sequence-c {
+		width: auto;
+		height: 500px;
+		background: url(../img/wkid-ambiance-4.jpg);
+		margin: 16px 0 52px;
+		position: relative;
+	}
+
+	#wkid .navigation-projets li {
+		width: 208px;
+		font-size: 14px;
+		line-height: 36px;
+	}
+
+/* ----------------------------- PAGE ECAMPUS */
+
+	#ecampus #banner {
+		width: 100%;
+		height: 300px;
+		background: url(../img/banner-ecampus.jpg) no-repeat;
+		-webkit-background-size: cover;
+			-moz-background-size: cover;
+				-o-background-size: cover;
+					-ms-background-size: cover;
+						background-size: cover;
+
+	}
+
+	#ecampus #container #content li {
+		width: 324px;
+		float: left;
+	}
+
+	#ecampus #container #content h3 {
+		font-size: 18px;
+		line-height: 24px;
+		margin: 6px 0 25px;
+	}
+
+	#ecampus #container #content p {
+		font-size: 14px;
+		line-height: 24px;
+		margin: 0 0 24px;
+	}
+
+		#ecampus #container #content p a {
+			font-size: 14px;
+			line-height: 24px;
+		}
+
+		#ecampus #container #content .ecampus-textedroite h3 {
+			margin: 58px 0 26px 24px;
+		}
+
+		#ecampus #container #content .ecampus-textedroite-sanstitre p {
+			margin: 56px 0 24px 24px;
+		}
+
+			#ecampus #container #content .ecampus-textedroite p:last-child {
+			margin: 0 0 24px 24px;
+		}
+
+		#ecampus #container #content #ecampus-recherche {
+			width: 324px;
+			height: 336px;
+			margin: 60px 0 33px 24px;
+			background: url(../img/ecampus-ambiance-6-tablette.jpg) no-repeat;
+		}
+
+		#ecampus #container #content #ecampus-visuel-b {
+			margin: 0 0 72px;
+		}
+
+		#ecampus #container #content .visuel-sequence-b h3 {
+			margin: 18px 0 26px;
+		}
+
+		#ecampus #container #content .texte-gauche {
+			margin: 56px 0 66px;
+			float: left;
+			clear: both;
+		}
+
+		#ecampus #container #content .texte-gauche h3 {
+			margin: -11px 0 24px;
+		}
+
+		#ecampus #container #content .ecampus-textedroite {
+			margin: 48px 0 0;
+		}
+
+			#ecampus #container #content .ecampus-textedroite h3 {
+				margin: -3px 0 24px 24px;
+			}
+
+		#ecampus #container #content .para-droite {
+			margin: 0 0 24px 24px;
+		}
+
+			#ecampus #container #content .visuel-sequence-c li:nth-child(2) {
+				margin: 0;
+				width: 324px;
+			}
+
+			#ecampus #container #content #lolmargin {
+				margin: 0 0 0 24px;
+			}
+
+		#ecampus #container #content .visuel-sequence-d {
+			margin: -2px 0 68px;
+		}
+
+			#ecampus #container #content .visuel-sequence-d h3 {
+				margin: 0 0 24px;
+			}
+
+			#ecampus #container #content .para-droite-bis {
+				margin: 0 0 48px 24px;
+				width: 324px;
+			}
+
+		#ecampus #container #content .visuel-sequence-e h3 {
+			margin: 0 0 24px;
+		}
+
+		#ecampus #container #content .visuel-sequence-e p {
+			margin: 0 0 17px;
+		}
+
+	#ecampus #container #content #ecampus-visuel-a {
+		width: 672px;
+		height: 362px;
+		margin: 0 0 26px;
+		background: url(../img/ecampus-ambiance-2-tablette.jpg);
+	}
+
+	#ecampus #container #content #ecampus-visuel-b {
+		width: 672px;
+		height: 362px;
+		margin: 0 0 70px;
+		background: url(../img/ecampus-ambiance-3-tablette.jpg);
+	}
+
+	#ecampus #container #content #ecampus-visuel-c {
+		width: 672px;
+		height: 362px;
+		margin: -36px 0 88px;
+		background: url(../img/ecampus-ambiance-4-tablette.jpg);
+	}
+
+	#ecampus #container #content #ecampus-visuel-d {
+		width: 672px;
+		height: 362px;
+		margin: -36px 0 85px;
+		background: url(../img/ecampus-ambiance-5-tablette.jpg);
+	}
+
+/* ----------------------------- CREDITS */
+
+#credits #container h2 {
+	font-size: 24px;
+	font-family: 'museoslab';
+	color: #111111;
+	margin: -2px 0 44px;
+	cursor: default;
+}
+
+	#credits #container #titre-credits-a {
+		margin: 38px 0 44px;
+	}
+
+	#credits #container #titre-credits-b {
+		margin: 40px 0 44px;
+	}
+
+#credits #container ul {
+	margin: -8px 0 0;
+	overflow: hidden;
+}
+
+#credits #container #titre-formulaire {
+	clear: both;
+	padding: 48px 0 0;
+	margin: 38px 0 44px;
+	border-top: 1px solid #eaeaea;
+}
+
+	#credits #container li {
+		float: none;
+		width: 384px;
+		margin: 0 40px 48px 0;
+	}
+
+		#credits #container li:nth-child(2) {
+			margin: 0;
+		}
+
+		#credits #container li:last-child {
+			margin: 96px 40px 48px 0;
+		}
+
+		#credits #container #creative-juice-yeah {
+			margin: 0;
+		}
+
+	#credits #container li h4 {
+		float: left;
+		margin: 0 24px 0 0;
+		font-family: 'museoslab';
+		font-size: 20px;
+		color: #111111;
+	}
+
+	#credits #container li p {
+		float: left;
+		color: #333333;
+		margin: 4px 0 0;
+		width: 324px;
+	}
+
+	#credits #container li a {
+		color: #fbb03b;
+		text-decoration: none;
+		float: left;
+		margin: 4px 0 0;
+	}
+
+		#credits #container li a:hover {
+			text-decoration: underline;
+		}
+
+	#credits #container #content p {
+		width: 640px;
+		color: #333333;
+	}
+
+	#credits #container-footer footer {
+		margin: 17px auto 0;
+	}
+
+/* ----------------------------- FOOTER */
+
+	footer {
+		width: 720px;
+		margin: 0 auto;
+		padding: 24px 0 24px 48px;
+		overflow: hidden;
+	}
+
+		footer ul {
+			width: 150px;
+			margin: 7px 23px 0 0;
+		}
+
+		footer ul:last-child {
+			margin: 7px 0 0;
+		}
+
+			footer ul .title-link {
+				color: #fbb03b;
+				font-family: 'museoslab';
+				cursor: default;
+				margin: 0 0 5px 0;
+			}
+
+			footer ul li {
+				font-family: 'museoslab';
+			}
+
+			footer ul li a {
+				text-decoration: none;
+				color: #ffffff;
+				font-size: 12px;
+				display: block;
+			}
+
+				footer ul li a:hover {
+					color: #fbb03b;
+				}
+
+			footer ul li p {
+				color: #ffffff;
+				font-size: 12px;
+				cursor: default;
+			}
+
+} 
+
+
+/* --------------------------------------------
+				END 768°1024
+-------------------------------------------- */
+
+
+
+/* ---------------------------------------- */ 
+
+/* ---------------- Smartphone 320°480 ----- */
+
+
+/* ----------------------------- PAGE INDEX */
+
+
+@media(max-width:767px) {
+
+	body {
+		overflow-x: hidden;
+	}
+
+	#container-header {
+		width: 320px;
+		padding: 36px 0;
+		margin: 0 auto;
+		border: none;
+	}
+
+	#container-header header {
+		width: 320px;
+		padding: 0;
+		margin: 0 auto;
+	}
+
+	#container-header header h1 {
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	#container-header header ul {
+		top: 0;
+		right: 0;
+		width: 320px;
+		margin: 41px 0 0;
+	}
+
+		#container-header header ul li {
+			width: 105px;
+			border-right: 1px solid #eaeaea;
+			margin: 0;
+		}
+
+			#container-header header ul li:last-child {
+				border: none;
+			}
+
+		#container-header header ul li a {
+			text-align: center;
+			width: 105px;
+		}
+
+	#banner {
+		width: auto;
+		height: 200px;
+		margin: 48px 0 0;
+	}
+
+	#container {
+		width: 300px;
+		padding: 0 10px 42px; 
+	}
+
+	#portfolio #container {
+		width: 300px;
+		padding: 0 10px 41px; 
+	}
+
+	#container .visual-link {
+		height: 314px;
+		width: 300px;
+	}
+
+	#index #banner p {
+		font-size: 16px;
+		width: 221px;
+		height: 24px;
+		line-height: 24px;
+	}
+
+	#index #bienvenue {
+		top: 67px;
+		left: 95px;
+	}
+
+	#index #jeunewd {
+		top: 91px;
+		left: 95px;
+	}
+
+	#index #banner .dynamic-link {
+		left: 95px;
+		top: 139px;
+		height: 24px;
+		line-height: 24px;
+	}
+
+	#index #banner {
+		background: url(../img/banner-accueil-mobile.jpg) no-repeat;
+		-webkit-background-size: cover;
+			-moz-background-size: cover;
+				-o-background-size: cover;
+					-ms-background-size: cover;
+						background-size: cover;
+	}
+
+
+/* ... Ce que  je fais ... */
+
+	#index #container #content #cequejefais {
+		float: none;
+		width: 300px;
+		margin: -10px 0 0;
+		padding: 0 0 63px;
+		position: relative;
+		border-bottom: 1px solid #eaeaea;
+	}
+
+	#index #container #content #cequejefais .visual-link {
+		float: none;
+		margin: -3px auto 0;
+		background: url(../img/cequejefais-accueil-tablette.jpg) no-repeat;
+	}
+
+	#index #container #content #cequejefais h2 {
+		margin: 49px 0 46px;
+		font-size: 24px;
+		line-height: 24px;
+	}
+
+	#index #container #content #cequejefais h3 {
+		width: 300px;
+		float: none;
+		margin: 49px 0 0;
+	}
+
+	#index #container #content #cequejefais p {
+		width: 300px;
+		float: left;
+		font-size: 14px;
+		line-height: 24px;
+	}
+
+	#index #container #content #cequejefais .dynamic-link {
+			width: 300px;
+			position: absolute;
+			left: 0;
+			top: 342px;
+	}
+
+/* ... Comment je le fais ... */
+
+	#index #container #content #commentjelefais {
+		width: 300px;
+		overflow: hidden;
+		position: relative;
+		margin: 0 0 21px;
+	}
+
+	#index #container #content #commentjelefais h2 {
+		margin: 46px 0 46px;
+	}
+
+	#index #container #content #commentjelefais .visual-link {
+		margin: -11px auto 57px; 
+		float: none;
+		position: relative;
+		right: 0;
+		top: 2px;
+		background: url(../img/commentjelefais-accueil-tablette.jpg) no-repeat;
+	}
+
+	#index #container #content #commentjelefais h3 {
+		width: 300px;
+		float: left;
+		margin: -6px 0 0;
+	}
+
+	#index #container #content #commentjelefais p {
+		width: 300px;
+		float: left;
+		font-size: 14px;
+		line-height: 24px;
+	}
+
+	#index #container #content #commentjelefais .dynamic-link {
+			width: 300px;
+			position: absolute;
+			right: 0;
+			top: 332px;
+	}
+
+/* ----------------------------- LANDINGPAGE */
+
+	#tanguy #container {
+		width: 320px;
+	}
+
+	#tanguy #container ul li {
+		width: 320px;
+		height: 480px;
+	}
+
+				#tanguy #container ul li#slide-f {
+					height: 800px;
+					padding: 0 0 48px;
+				}
+
+				#tanguy #container #perso-jacob-a {
+					top: 50%;
+					left: 48.5%;
+					margin: -150px 0 0 -60px;				
+				}
+
+				#tanguy #container #perso-jacob-b {
+					top: 50%;
+					left: 48.5%;
+					margin: -150px 0 0 -60px;
+				}
+
+				#tanguy #container #perso-jacob-c {
+					top: 50%;
+					left: 48.5%;
+					margin: -150px 0 0 -60px;
+				}
+
+				#tanguy #container #perso-jacob-d {
+					top: 50%;
+					left: 48.5%;
+					margin: -150px 0 0 -60px;
+				}
+
+				#tanguy #container #perso-jacob-e {
+					top: 50%;
+					left: 48.5%;
+					margin: -150px 0 0 -60px;
+				}
+
+				#tanguy #container #perso-jacob-f {
+					top: 50%;
+					left: 48.5%;
+					margin: -150px 0 0 -60px;
+				}
+
+/* ----------------------------- PAGE 404ERREUR */
+
+	#pagequatrecentquatre #banner {
+		width: auto;
+		height: 200px;
+		background: url(../img/page404-1-mobile.jpg) center no-repeat;
+		background-attachment: scroll;
+		-webkit-background-size: cover;
+			-moz-background-size: cover;
+				-o-background-size: cover;
+					-ms-background-size: cover;
+						background-size: cover;
+
+		-webkit-animation: bgmove 5s infinite ease-in-out;
+			-moz-animation: none;
+				-o-animation: none;
+					animation: none;
+	}
+
+	#pagequatrecentquatre #banner p {
+		font-size: 16px;
+		line-height: 36px;
+		width: 300px;
+		left: 50%;
+		margin: 0 0 0 -150px;
+	}
+
+	#pagequatrecentquatre #paragraphe-premier {
+		width: 100%;
+		top: 56.767528%;
+		left: 50%;
+		margin: 0 0 0 -150px;
+		background: url(../img/dynamic-text.png);
+	}
+
+	#pagequatrecentquatre #paragraphe-second {
+		width: 100%;
+		top: 62.262244%;
+		left: 50%;
+		margin: 0 0 0 -186px;
+		background: url(../img/dynamic-text.png);
+	}
+
+	#pagequatrecentquatre #banner #paragraphe-tertiaire {
+		top: 45.380074%;
+		left: 50%;
+		margin: 48px 0 0 -50px;
+		width: 100px;
+	}
+
+		#pagequatrecentquatre #banner #paragraphe-tertiaire a {
+			text-indent: -9999px;
+			display: block;
+			background: url(../img/direction.png);
+			line-height: 36px;
+			height: 36px;
+		}
+
+	#pagequatrecentquatre #sitemap {
+		width: 300px;
+		background: url(../img/sitemap-mobile.png) no-repeat;
+		background-position: 0 38px; 
+	}
+
+		#pagequatrecentquatre #sitemap ul li a {
+			height: 24px;
+			font-size: 14px;
+			line-height: 24px;
+		}
+
+/* ----------------------------- PAGE PORTFOLIO */
+
+	#portfolio #container #content h2 {
+		margin: 32px 0 16px;
+		width: 300px;
+	}
+
+	#portfolio #container #content h3 {
+		margin: 0 0 24px;
+		width: 300px;
+		float: left;
+	}
+
+	#portfolio #container #content p {
+		margin: 0 0 16px;
+		width: 300px;
+		float: left;
+	}
+
+	#portfolio #container #content .dynamic-link {
+		width: 300px;
+		position: absolute;
+		top: 311px;
+	}
+
+		#portfolio #container #content .dynamic-link:hover {
+			background-position: 0 0;
+		}
+
+/*.. Dictionary ..*/
+
+	#portfolio #container #content #dictionary {
+		position: relative;
+		margin: 0;
+		padding: 0 0 48px;
+		width: 300px;
+	}
+
+	#portfolio #container #content #dictionary h2 {
+		margin: 42px 0 16px;
+	}
+
+	#portfolio #container #content #dictionary h3 {
+		margin: 48px 0 24px
+	}
+
+	#portfolio #container #content #dictionary p {
+		margin: 0 0 16px;
+		font-size: 14px;
+		line-height: 24px;	
+	}
+
+	#portfolio #container #content #dictionary .visual-link {
+		height: 314px;
+		width: 300px;
+		margin: -2px 24px 0 0;
+		background: url(../img/dictionary-portfolio-tablette.jpg) no-repeat;	
+	}
+		
+	#portfolio #container #content #dictionary .dynamic-link {
+		margin: 20px 0 0;
+		top: 350px;
+	}
+
+/*.. BelgoBelge ..*/
+
+	#portfolio #container #content #belgobelge {
+		position: relative;
+		margin: 0;
+		padding: 0 0 40px;
+		width: 300px;
+	}
+
+	#portfolio #container #content #belgobelge h2 {
+		margin: 46px 0 16px;
+	}
+
+	#portfolio #container #content #belgobelge h3 {
+		margin: 50px 0 26px;
+	}
+
+	#portfolio #container #content #belgobelge p {
+		margin: 0 0 24px 0;
+		font-size: 14px;
+		line-height: 24px;	
+	}
+
+	#portfolio #container #content #belgobelge .visual-link {
+		height: 313px;
+		width: 300px;
+		margin: 0 0 0 24px;
+		background: url(../img/belgobelge-portfolio-tablette.jpg) no-repeat;
+	}
+
+	#portfolio #container #content #belgobelge .dynamic-link {
+		margin: 12px 0 0;
+		top: 363px;
+		right: 0;
+	}
+
+/*.. Omnitemps ..*/
+
+	#portfolio #container #content #omnitemps {
+		position: relative;
+		margin: 0;
+		padding: 0 0 40px;
+		width: 320px;
+	}
+
+	#portfolio #container #content #omnitemps h2 {
+		margin: 46px 0 16px;
+	}
+
+	#portfolio #container #content #omnitemps h3 {
+		margin: 52px 0 26px;
+	}
+
+	#portfolio #container #content #omnitemps p {
+		margin: 0 0 24px 0;
+		font-size: 14px;
+		line-height: 24px;	
+	}
+
+	#portfolio #container #content #omnitemps .visual-link {
+		height: 314px;
+		width: 300px;
+		margin: -2px 24px 0 0;
+		background: url(../img/omnitemps-portfolio-tablette.jpg) no-repeat;
+		float: left;
+	}
+		
+	#portfolio #container #content #omnitemps .dynamic-link {
+		margin: 10px 0 0;
+		top: 364px;
+	}
+
+
+/*.. Workshop - Wkid ..*/
+
+	#portfolio #container #content #wkid {
+		position: relative;
+		margin: 0;
+		padding: 0;
+		width: 300px;
+	}
+
+	#portfolio #container #content #wkid h2 {
+		margin: 46px 0 16px;
+	}
+
+	#portfolio #container #content #wkid h3 {
+		margin: 52px 0 26px
+	}	
+
+	#portfolio #container #content #wkid p {
+		margin: 0 0 24px 0;
+		font-size: 14px;
+		line-height: 24px;	
+	}
+
+	#portfolio #container #content #wkid .visual-link {
+		height: 313px;
+		width: 300px;
+		margin: -3px 0 0 24px;
+		background: url(../img/wkid-portfolio-tablette.jpg) no-repeat;
+	}
+
+	#portfolio #container #content #wkid .dynamic-link {
+		margin: 12px 0 0;
+		top: 363px;
+		right: 0;
+	}
+
+/* ----------------------------- PAGE APROPOS */
+
+	#apropos #container-header ul {
+		margin: 41px 0 43px;
+	}
+
+	#apropos #banner {
+		width: auto;
+		height: 300px;
+		background: url(../img/banner-apropos-mobile.jpg) center no-repeat;
+		-webkit-background-size: cover;
+			-moz-background-size: cover;
+				-o-background-size: cover;
+					-ms-background-size: cover;
+						background-size: cover;
+	}
+
+	#apropos #titre-mobile-infos-persos {
+		font-size: 18px;
+		line-height: 36px;
+		margin: 11px 0 15px;
+		width: 300px;
+	}
+
+	#apropos #texte-infos-mobile p {
+		width: 300px;
+		font-size: 14px;
+		line-height: 24px;
+	}
+
+	#texte-infos-mobile {
+		display: block;
+		border-bottom: 1px solid #eaeaea;
+		margin: 0 0 36px;
+		padding: 0 0 24px;
+	}
+	
+	#apropos #container #content #recherchereflexion, 
+	#apropos #container #content #croquiswireframe {
+		padding: 0 0 42px;
+		margin: 0 0 37px;
+	}
+
+	#apropos #container #content #delivrablesmaj {
+		overflow: hidden;
+		padding: 0 0 96px; 
+	}
+
+	#apropos #container #content h2 {
+		font-size: 24px;
+		color: #111111;
+		text-align: left;
+		margin: 10px 0 40px;
+	}
+
+	.number-process {
+			color: #fbb03b;
+		}
+
+		#apropos #container #content #texte-infos-mobile #titre-mobile-infos-persos {
+			margin: 31px 0 -28px;
+			color: #fbb03b;
+		}
+
+		#apropos #container #content #texte-infos-mobile #paragraphe-mobile-infos-persos {
+			margin: 35px 0 24px;
+			font-size: 14px;
+			line-height: 24px;
+			color: #333333;
+		}
+
+		#apropos #container #content #texte-infos-mobile #paragrapheb-mobile-infos-persos {
+			margin: 24px 0 40px;
+			font-size: 14px;
+			line-height: 24px;
+			color: #333333;
+		}
+
+
+
+
+/*.. RecherchesetReflexion ..*/
+
+	#apropos #container #content #recherchereflexion {
+		padding: 0 0 39px;
+	}
+
+	#apropos #container #content #recherchereflexion .visual-link {
+		background: url(../img/recherche-apropos-tablette.jpg) no-repeat;
+		float: right;
+		position: relative;
+		top: 14px;
+		left: 0;
+		width: 300px;
+		height: 321px;
+	}
+
+	#apropos #container #content #recherchereflexion h2 {
+		margin: 10px 0 24px;
+	}
+
+	#apropos #container #content #recherchereflexion h3 {
+		margin: 35px 0 25px;
+		width: 300px;
+		cursor: default;
+		clear: both;
+	}
+
+	#apropos #container #content #recherchereflexion .marginquibug {
+		margin: 24px 0 24px;
+	}
+
+	#apropos #container #content #recherchereflexion p {
+		width: 300px;
+		font-size: 14px;
+		line-height: 24px;
+		margin: 0 0 24px;
+	}
+
+/*.. CroquisetWireframe ..*/
+
+	#apropos #container #content #croquiswireframe .visual-link {
+		background: url(../img/wireframe-apropos-tablette.jpg) no-repeat;
+		width: 300px;
+		margin: 0 0 23px 0;
+		top: -6px;
+	}
+
+	#apropos #container #content #croquiswireframe h2 {
+		margin: 10px 0 44px;
+	}
+
+	#apropos #container #content #croquiswireframe h3 {
+		font-size: 18px;
+		line-height: 24px;
+		margin: 0px 0 25px;
+		width: 300px;
+	}
+
+	#apropos #container #content #croquiswireframe p {
+		margin: 0 0 23px;
+		width: 300px;
+		font-size: 14px;
+		line-height: 24px;
+	}
+
+	#apropos #container #content #croquiswireframe .retouche-margin {
+		margin: 0 0 24px;
+	}
+
+
+/*.. DeveloppementetCode ..*/
+
+	#apropos #container #content #developpementcode {
+		margin: 0 0 38px;
+		padding: 0 0 90px;
+		height: 828px;
+		top: 0;
+	}
+
+	#apropos #container #content #developpementcode .visual-link {
+		background: url(../img/developpement-apropos-tablette.jpg) no-repeat;
+		top: -5px;
+		left: 0;
+		width: 300px;
+	}
+
+	#apropos #container #content #developpementcode h2 {
+		margin: 6px 0 44px;
+	}
+
+	#apropos #container #content #developpementcode h3 {
+		font-size: 18px;
+		line-height: 24px;
+		margin: 24px 0 25px;
+		width: 320px;
+	}
+
+	#apropos #container #content #developpementcode p {
+		margin: 0 0 23px;
+		width: 300px;
+		font-size: 14px;
+		line-height: 24px;
+	}
+
+/*.. DelivrablesetMaj ..*/
+
+	#apropos #container #content #delivrablesmaj {
+		padding: 0 0 40px;
+		height: 817px;
+	}
+
+	#apropos #container #content #delivrablesmaj .visual-link {
+		background: url(../img/delivrable-apropos-tablette.jpg) no-repeat;
+		top: -6px;
+		width: 300px;
+		margin: 0 0 24px 0;
+	}
+
+	#apropos #container #content #delivrablesmaj h2 {
+		margin: 10px 0 44px;
+	}
+
+	#apropos #container #content #delivrablesmaj h3 {
+		font-size: 18px;
+		line-height: 24px;
+		margin: 0 0 24px;
+		width: 300px;
+	}
+
+	#apropos #container #content #delivrablesmaj p {
+		font-size: 14px;
+		line-height: 24px;
+		margin: 0 0 24px;
+		width: 300px;
+	}
+
+	#apropos #container #content #delivrablesmaj .retouche-margin {
+		margin: 0 0 24px;
+	}
+
+/* ----------------------------- PAGE CONTACT */
+
+	#contact #container h2 {
+		font-size: 24px;
+		margin: 42px 0 48px;
+		cursor: default;
+	}
+
+	#contact #container ul {
+		margin: -8px 0 70px;
+		overflow: hidden;
+	}
+
+	#contact #container #titre-formulaire {
+		padding: 48px 0 0;
+		margin: 38px 0 48px;
+		font-size: 18px;
+		line-height: 24px;
+	}
+
+		#contact #container li {
+			float: left;
+			width: 320px;
+			margin: 0 28px 0 0;
+		}
+
+			#contact #container li:nth-child(2) {
+				margin: 18px 0;
+			}
+
+			#contact #container li:last-child {
+				margin: 0;
+			}
+
+		#contact #container li h4 {
+			margin: 4px 30px 0 0;
+			font-size: 18px;
+			line-height: 24px;
+		}
+
+		#contact #container li p {
+			margin: 6px 0 0;
+			font-size: 14px;
+			line-height: 24px;
+		}
+
+		#contact #container li a {
+			margin: 6px 0 0;
+			font-size: 14px;
+			line-height: 24px;
+		}
+
+		#contact #container form {
+			margin: 0 0 5px;
+		}
+
+		#contact #container form input, 
+		#contact #container form label, 
+		#contact #container form textarea {
+			font-size: 14px;
+			line-height: 24px;
+		}
+
+		#contact #container form input {
+			margin: 16px 0 20px 0;
+			padding: 10px 6px;
+			color: #fbb03b;
+			width: 284px;
+		}
+
+			#contact #container form div:nth-child(2) label {
+				margin: 12px 0 0;
+			}
+
+			#contact #container form div:nth-child(3) label {
+				margin: 12px 0 0;
+			}
+
+		#contact #container form textarea {
+			margin: 16px 0 24px;
+			padding: 14px 6px;
+			max-width: 284px;
+			min-width: 284px;
+		}
+
+			#contact #container form #envoyermessage {
+				margin: 23px 0 52px;
+				width: 300px;
+			}
+
+/* ----------------------------- PAGE DICTIONARY */
+
+	#dictionary #container {
+		padding: 0 10px 35px;
+	}
+
+	#dictionary #container-header ul {
+		margin: 41px 0 43px;
+	}
+
+	#dictionary #banner {
+		width: auto;
+		height: 300px;
+		background: url(../img/banner-dictionary.jpg) center no-repeat;
+		-webkit-background-size: cover;
+			-moz-background-size: cover;
+				-o-background-size: cover;
+					-ms-background-size: cover;
+						background-size: cover;
+	}
+
+	#dictionary #description-dictionary h3 {
+		margin: 43px 0 26px;
+		width: 300px;
+	}
+
+	#dictionary #content #description-dictionary p {
+		width: 300px;
+		margin: 0 0 16px;
+	}
+
+	#dictionary #content #description-dictionary {
+		margin: 0 0 68px;
+	}
+
+	#dictionary #content #description-dictionary .nomargin {
+		margin: 0 0 24px;
+	}
+
+	#dictionary .visuel-compo {
+		width: 300px;
+		height: 375px;
+		margin: -52px 0 57px;
+		background: url(../img/dictionary-ambiance-1-mobile.jpg);
+	}
+
+	#dictionary .visuel-mobile-petit {
+		display: block;
+		width: 300px;
+		margin: 24px 0 29px;
+		clear: both;
+	}
+
+		#dictionary #visuel-mobile-dictionary-a {
+			background: url(../img/visuel-mobile-dictionary-a.jpg) no-repeat;
+			height: 146px;
+		}
+
+		#dictionary #visuel-mobile-dictionary-b {
+			background: url(../img/visuel-mobile-dictionary-b.jpg) no-repeat;
+			height: 140px;
+			margin: 24px 0 36px;
+		}
+
+	#dictionary .navigation-projets {
+		margin: 0 0 50px;
+	}
+
+	#dictionary .navigation-projets li {
+		width: 300px;
+		margin: 0 0 24px;
+	}
+
+/* ----------------------------- PAGE BELGOBELGE */
+
+	#belgobelge #container {
+			padding: 0 10px 24px;
+		}
+
+		#belgobelge #container-header ul {
+			margin: 41px 0 43px;
+		}
+
+	#belgobelge #banner {
+		width: auto;
+		height: 300px;
+		background: url(../img/banner-belgobelge.jpg) center no-repeat;
+		-webkit-background-size: cover;
+			-moz-background-size: cover;
+				-o-background-size: cover;
+					-ms-background-size: cover;
+						background-size: cover;
+	}
+
+	#belgobelge h3 {
+		font-size: 18px;
+		line-height: 24px;
+		margin: 43px 0 26px;
+		width: 300px;
+	}
+
+	#belgobelge #content p {
+		width: 300px;
+		font-size: 14px;
+		line-height: 24px;
+	}
+
+	#belgobelge #content .nomargin {
+		margin: -17px 0 41px;
+	}
+
+	#belgobelge #content p {
+		width: 300px;
+		font-size: 14px;
+		line-height: 24px;
+	}
+
+		#belgobelge #content p a {
+			font-size: 14px;
+			line-height: 24px;
+		}
+
+	#belgobelge .navigation-projets {
+		margin: 0 0 60px;
+	}
+
+	#belgobelge .navigation-projets li {
+		width: 300px;
+		margin: 0 0 24px;
+	}
+
+/* ----------------------------- PAGE OMNITEMPS */
+
+	#omnitemps #container {
+			padding: 0 10px 24px;
+		}
+
+		#omnitemps #container-header ul {
+			margin: 41px 0 43px;
+		}
+
+	#omnitemps #banner {
+		width: auto;
+		height: 300px;
+		background: url(../img/banner-omnitemps.jpg) center no-repeat;
+		-webkit-background-size: cover;
+			-moz-background-size: cover;
+				-o-background-size: cover;
+					-ms-background-size: cover;
+						background-size: cover;	
+	}
+
+	#description-omnitemps {
+		height: 829px;
+	}
+
+	#omnitemps h3 {
+		font-size: 18px;
+		line-height: 24px;
+		margin: 43px 0 26px;
+		width: 300px;
+	}
+
+	#omnitemps #content p {
+		width: 300px;
+		font-size: 14px;
+		line-height: 24px;
+		margin: 0;
+	}
+
+	#omnitemps #content .nomargin {
+		margin: -1px 0 72px;
+	}
+
+		#omnitemps #content .visuel-compo {
+			width: 300px;
+			height: 362px;
+			margin: 0 0 46px;
+			background: url(../img/omnitemps-ambiance-1-mobile.jpg) no-repeat;
+		}
+
+			#omnitemps .visuel-mobile-petit {
+				display: block;
+				clear: both;
+				width: 300px;
+			}
+
+				#omnitemps #visuel-mobile-omnitemps-a {
+					background: url(../img/visuel-mobile-omnitemps-a.jpg) no-repeat;
+					height: 146px;
+					margin: 17px 0 -19px;
+				}
+
+				#omnitemps #visuel-mobile-omnitemps-b {
+					background: url(../img/visuel-mobile-omnitemps-b.jpg) no-repeat;
+					height: 140px;
+					margin: 17px 0 -13px;
+				}
+
+	#omnitemps .navigation-projets {
+		margin: 0 0 60px;
+	}
+
+	#omnitemps .navigation-projets li {
+		width: 300px;
+		margin: 0 0 24px;
+	}
+
+/* ----------------------------- PAGE WKID */
+
+	#wkid #container {
+			padding: 0 10px 17px;
+		}
+
+		#wkid #container-header ul {
+			margin: 41px 0 43px;
+		}
+
+	#wkid #banner {
+		width: auto;
+		height: 300px;
+		background: url(../img/banner-wkid.jpg) center no-repeat;
+		-webkit-background-size: cover;
+			-moz-background-size: cover;
+				-o-background-size: cover;
+					-ms-background-size: cover;
+						background-size: cover;	
+	}
+
+	#wkid h3 {
+		font-size: 18px;
+		line-height: 24px;
+		margin: 19px 0 26px;
+		width: 300px;
+	}
+
+		#wkid #description-wkid #wkid-sequence-a li, 
+		#wkid #description-wkid #wkid-sequence-b li, 
+		#wkid #description-wkid #wkid-sequence-c li {
+			width: 300px;
+			float: left;
+			color: #333333;
+		}
+
+	#wkid #description-wkid #wkid-sequence-a .wkid-visuel-sa {
+		display: none;
+	}
+
+	#wkid #description-wkid #wkid-sequence-a p {
+		margin: 23.23456789px 0 0;
+		width: 300px;
+		font-size: 14px;
+		line-height: 24px;
+	}
+
+		#wkid #description-wkid #wkid-sequence-a p a {
+			font-size: 14px;
+			line-height: 24px;
+		}
+
+	#wkid #description-wkid #wkid-sequence-b .wkid-visuel-sb {
+		display: none;
+	}
+
+		#wkid #description-wkid #wkid-sequence-b .wkid-visuel-sb {
+			display: none;
+		}
+
+		#wkid #description-wkid #wkid-sequence-b .wkid-visuel-sbis {
+			display: none;
+		}
+
+	#wkid #description-wkid #wkid-sequence-b li {
+		margin: 64px 0 0;
+		width: 300px;
+	}
+
+		#wkid #description-wkid #wkid-sequence-b li p {
+			font-size: 14px;
+			line-height: 24px;
+			margin: 18px 0 23px;
+			width: 300px;
+		}
+
+		#wkid #description-wkid #wkid-sequence-b p a {
+			font-size: 14px;
+			line-height: 24px;
+		}
+
+	#wkid #description-wkid #wkid-sequence-b .bugmargin {
+		margin: 32px 0 0;
+	}
+
+	#wkid #description-wkid #wkid-sequence-b .nomargin {
+		margin: -16px 0 24px;
+	}
+
+	#wkid #description-wkid #wkid-sequence-c {
+		width: 300px;
+		height: 461px;
+		margin: 0 0 61px;
+		background: url(../img/wkid-ambiance-1-mobile.jpg) no-repeat;
+	}
+
+	#wkid .navigation-projets {
+		margin: 0 0 66px;
+	}
+
+	#wkid .navigation-projets li {
+		width: 300px;
+		margin: 0 0 24px;
+	}
+
+/* ----------------------------- PAGE ECAMPUS */
+
+	#ecampus #container {
+			padding: 0 10px 47px;
+		}
+
+		#ecampus #container-header ul {
+			margin: 41px 0 43px;
+		}
+
+	#ecampus #banner {
+		width: auto;
+		height: 300px;
+		background: url(../img/banner-ecampus.jpg) center no-repeat;
+		-webkit-background-size: cover;
+			-moz-background-size: cover;
+				-o-background-size: cover;
+					-ms-background-size: cover;
+						background-size: cover;
+
+	}
+
+	#ecampus #container #content li {
+		width: 300px;
+		float: none
+	}
+
+	#ecampus #container #content h3 {
+		font-size: 18px;
+		line-height: 24px;
+		margin: 7px 0 25px;
+		width: 300px;
+	}
+
+	#ecampus #container #content p {
+		font-size: 14px;
+		line-height: 24px;
+		margin: 0 0 24px;
+		width: 300px;
+	}
+
+		#ecampus #container #content p a {
+			font-size: 14px;
+			line-height: 24px;
+		}
+
+		#ecampus #container #content .ecampus-textedroite h3 {
+			margin: 58px 0 26px 24px;
+		}
+
+		#ecampus #container #content .ecampus-textedroite-sanstitre p {
+			margin: 23px 0 24px;
+		}
+
+		#ecampus #container #content .ecampus-textedroite p:last-child {
+			margin: 0 0 24px;
+		}
+
+		#ecampus #container #content #ecampus-recherche {
+			width: 300px;
+			height: 268px;
+			margin: 60px 0 33px;
+			background: url(../img/ecampus-ambiance-6-mobile.jpg) no-repeat;
+		}
+
+		#ecampus #container #content #ecampus-visuel-b {
+			margin: 0 0 72px;
+		}
+
+		#ecampus #container #content .visuel-sequence-b h3 {
+			margin: 27px 0 26px;
+		}
+
+		#ecampus #container #content .texte-gauche {
+			margin: 56px 0 66px;
+			float: none;
+			clear: both;
+		}
+
+		#ecampus #container #content .texte-gauche h3 {
+			margin: -2px 0 24px;
+		}
+
+		#ecampus #container #content .ecampus-textedroite {
+			margin: 48px 0 0;
+		}
+
+			#ecampus #container #content .ecampus-textedroite h3 {
+				margin: -17px 0 24px;
+			}
+
+		#ecampus #container #content .para-droite {
+			margin: 0 0 24px;
+		}
+
+			#ecampus #container #content .visuel-sequence-c li:nth-child(2) {
+				margin: 0;
+				width: 300px;
+			}
+
+			#ecampus #container #content #lolmargin {
+				margin: 47px 0 0;
+			}
+
+		#ecampus #container #content .visuel-sequence-d {
+			margin: -2px 0 68px;
+		}
+
+			#ecampus #container #content .visuel-sequence-d h3 {
+				margin: 0 0 24px;
+			}
+
+			#ecampus #container #content .para-droite-bis {
+				margin: 0 0 48px;
+				width: 300px;
+			}
+
+		#ecampus #container #content .visuel-sequence-e h3 {
+			margin: 0 0 24px;
+		}
+
+		#ecampus #container #content .visuel-sequence-e p {
+			margin: 0 0 17px;
+		}
+
+	#ecampus #container #content #ecampus-visuel-a {
+		width: 300px;
+		height: 162px;
+		margin: 0 0 26px;
+		background: url(../img/ecampus-ambiance-2-mobile.jpg);
+	}
+
+	#ecampus #container #content #ecampus-visuel-b {
+		width: 300px;
+		height: 380px;
+		margin: 40px 0 52px;
+		background: url(../img/ecampus-ambiance-3-mobile.jpg);
+	}
+
+	#ecampus #container #content #ecampus-visuel-c {
+		width: 300px;
+		height: 162px;
+		margin: -36px 0 71px;
+		background: url(../img/ecampus-ambiance-4-mobile.jpg);
+	}
+
+	#ecampus #container #content #ecampus-visuel-d {
+		width: 300px;
+		height: 162px;
+		margin: -36px 0 71px;
+		background: url(../img/ecampus-ambiance-5-mobile.jpg);
+	}
+
+/* ----------------------------- CREDITS */
+
+#credits #container h2 {
+	font-size: 24px;
+	font-family: 'museoslab';
+	color: #111111;
+	margin: 42px 0 44px;
+	cursor: default;
+}
+
+	#credits #container #titre-credits-a {
+		margin: 38px 0 44px;
+	}
+
+	#credits #container #titre-credits-b {
+		margin: 40px 0 44px;
+	}
+
+#credits #container ul {
+	margin: -8px 0 0;
+	overflow: hidden;
+}
+
+#credits #container #titre-formulaire {
+	clear: both;
+	padding: 48px 0 0;
+	margin: 38px 0 44px;
+	border-top: 1px solid #eaeaea;
+}
+
+	#credits #container li {
+		float: none;
+		width: 300px;
+		margin: 0 40px 48px 0;
+	}
+
+		#credits #container li:nth-child(2) {
+			margin: 0;
+		}
+
+		#credits #container li:last-child {
+			margin: 96px 40px 48px 0;
+		}
+
+		#credits #container #creative-juice-yeah {
+			margin: 0;
+		}
+
+	#credits #container li h4 {
+		float: left;
+		margin: 0 24px 0 0;
+		font-family: 'museoslab';
+		font-size: 20px;
+		color: #111111;
+	}
+
+	#credits #container li p {
+		float: left;
+		color: #333333;
+		margin: 4px 0 0;
+		width: 300px;
+	}
+
+	#credits #container li a {
+		color: #fbb03b;
+		text-decoration: none;
+		float: left;
+		margin: 4px 0 0;
+	}
+
+		#credits #container li a:hover {
+			text-decoration: underline;
+		}
+
+	#credits #container #content p {
+		width: 300px;
+		color: #333333;
+	}
+
+	#credits #container-footer footer {
+		margin: 25px auto 0;
+	}
+
+	#confidentialite #content {
+		height: 400px;
+	}
+
+	#confidentialite #content h2 {
+		color: #fbb03b;
+		font-size: 18px;
+		line-height: 24px;
+		margin: 50px 0 25px;
+	}
+
+		#confidentialite #content p {
+			width: 300px;
+			font-size: 14px;
+			line-height: 24px;
+		}
+
+/* ----------------------------- FOOTER */
+
+	footer {
+		width: 320px;
+		margin: 0 auto;
+		padding: 24px 0;
+		overflow: hidden;
+	}
+
+		footer ul {
+			width: 300px;
+			padding: 0 10px;
+			margin: 7px 26px 5px 0;
+		}
+
+		footer ul:last-child {
+			margin: 7px 0 0;
+		}
+
+			footer ul .title-link {
+				color: #fbb03b;
+				font-family: 'museoslab';
+				cursor: default;
+				margin: 0 0 5px 0;
+				border-bottom: 1px solid #fbb03b;
+			}
+
+			footer ul li {
+				font-family: 'museoslab';
+			}
+
+			footer ul li a {
+				text-decoration: none;
+				color: #ffffff;
+				font-size: 12px;
+				display: block;
+			}
+
+				footer ul li a:hover {
+					color: #fbb03b;
+				}
+
+			footer ul li p {
+				color: #ffffff;
+				font-size: 12px;
+				cursor: default;
+			}
+
+			footer ul:last-child {
+				margin: 1px 0 0;
+			}	
+
+} 
+
+
+/* --------------------------------------------
+				END 320°480
+-------------------------------------------- */

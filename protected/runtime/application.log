@@ -1,0 +1,1215 @@
+2014/05/06 14:45:50 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.action" is not defined.' in C:\xampp\htdocs\gluten-free\yii1113\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\gluten-free\yii1113\framework\base\CModule.php(105): CComponent->__get('action')
+#1 C:\xampp\htdocs\gluten-free\themes\gluten\views\layouts\main.php(23): CModule->__get('action')
+#2 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#4 C:\xampp\htdocs\gluten-free\yii1113\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#5 C:\xampp\htdocs\gluten-free\yii1113\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<!--<div id="co...')
+#6 C:\xampp\htdocs\gluten-free\yii1113\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<!--<div id="co...')
+#7 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CBaseController.php(206): COutputProcessor->run()
+#8 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#9 C:\xampp\htdocs\gluten-free\themes\gluten\views\layouts\column1.php(6): CBaseController->endContent()
+#10 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#11 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#12 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php(784): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#13 C:\xampp\htdocs\gluten-free\protected\controllers\SiteController.php(98): CController->render('login', Array)
+#14 C:\xampp\htdocs\gluten-free\yii1113\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#15 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#17 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CWebApplication.php(282): CController->run('login')
+#19 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#20 C:\xampp\htdocs\gluten-free\yii1113\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#21 C:\xampp\htdocs\gluten-free\index.php(10): CApplication->run()
+#22 {main}
+REQUEST_URI=/gluten-free/index.php/site/login
+HTTP_REFERER=http://localhost/gluten-free/
+---
+2014/05/06 14:55:03 [error] [exception.CException] exception 'CException' with message 'Property "LoginForm.email" is not defined.' in C:\xampp\htdocs\gluten-free\yii1113\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\gluten-free\yii1113\framework\web\helpers\CHtml.php(2255): CComponent->__get('email')
+#1 C:\xampp\htdocs\gluten-free\yii1113\framework\web\helpers\CHtml.php(1980): CHtml::resolveValue(Object(LoginForm), 'email')
+#2 C:\xampp\htdocs\gluten-free\yii1113\framework\web\helpers\CHtml.php(1257): CHtml::activeInputField('text', Object(LoginForm), 'email', Array)
+#3 C:\xampp\htdocs\gluten-free\protected\views\site\login.php(15): CHtml::activeTextField(Object(LoginForm), 'email', Array)
+#4 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#5 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#6 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#7 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#8 C:\xampp\htdocs\gluten-free\protected\controllers\SiteController.php(30): CController->render('login', Array)
+#9 C:\xampp\htdocs\gluten-free\yii1113\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#10 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CWebApplication.php(282): CController->run('login')
+#14 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#15 C:\xampp\htdocs\gluten-free\yii1113\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\gluten-free\index.php(10): CApplication->run()
+#17 {main}
+REQUEST_URI=/gluten-free/index.php/site/login
+HTTP_REFERER=http://localhost/gluten-free/
+---
+2014/05/06 15:02:29 [error] [php] Undefined variable: model (C:\xampp\htdocs\gluten-free\protected\views\site\register.php:10)
+Stack trace:
+#0 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\xampp\htdocs\gluten-free\protected\controllers\SiteController.php(39): SiteController->render()
+#3 C:\xampp\htdocs\gluten-free\yii1113\framework\web\actions\CInlineAction.php(49): SiteController->actionRegister()
+#4 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\gluten-free\yii1113\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\gluten-free\index.php(10): CWebApplication->run()
+REQUEST_URI=/gluten-free/index.php/site/register
+in C:\xampp\htdocs\gluten-free\protected\views\site\register.php (10)
+in C:\xampp\htdocs\gluten-free\protected\controllers\SiteController.php (39)
+in C:\xampp\htdocs\gluten-free\index.php (10)
+2014/05/06 15:08:37 [warning] [application] Failed to set unsafe attribute "quiestu" of "User".
+in C:\xampp\htdocs\gluten-free\protected\controllers\SiteController.php (42)
+in C:\xampp\htdocs\gluten-free\index.php (10)
+2014/05/06 15:10:04 [warning] [application] Failed to set unsafe attribute "quiestu" of "User".
+in C:\xampp\htdocs\gluten-free\protected\controllers\SiteController.php (42)
+in C:\xampp\htdocs\gluten-free\index.php (10)
+2014/05/06 15:23:37 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.guest" is not defined.' in C:\xampp\htdocs\gluten-free\yii1113\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\gluten-free\yii1113\framework\base\CModule.php(105): CComponent->__get('guest')
+#1 C:\xampp\htdocs\gluten-free\themes\gluten\views\layouts\main.php(34): CModule->__get('guest')
+#2 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#4 C:\xampp\htdocs\gluten-free\yii1113\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#5 C:\xampp\htdocs\gluten-free\yii1113\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<!--<div id="co...')
+#6 C:\xampp\htdocs\gluten-free\yii1113\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<!--<div id="co...')
+#7 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CBaseController.php(206): COutputProcessor->run()
+#8 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#9 C:\xampp\htdocs\gluten-free\themes\gluten\views\layouts\column1.php(6): CBaseController->endContent()
+#10 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#11 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#12 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php(784): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#13 C:\xampp\htdocs\gluten-free\protected\controllers\SiteController.php(6): CController->render('index')
+#14 C:\xampp\htdocs\gluten-free\yii1113\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#15 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#17 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CWebApplication.php(282): CController->run('index')
+#19 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CWebApplication.php(141): CWebApplication->runController('site/index')
+#20 C:\xampp\htdocs\gluten-free\yii1113\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#21 C:\xampp\htdocs\gluten-free\index.php(10): CApplication->run()
+#22 {main}
+REQUEST_URI=/gluten-free/index.php/site/index
+HTTP_REFERER=http://localhost/gluten-free/index.php/site/register
+---
+2014/05/06 15:38:00 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.attributes" is not defined.' in C:\xampp\htdocs\gluten-free\yii1113\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\gluten-free\yii1113\framework\web\auth\CWebUser.php(140): CComponent->__get('attributes')
+#1 C:\xampp\htdocs\gluten-free\themes\gluten\views\layouts\main.php(35): CWebUser->__get('attributes')
+#2 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#4 C:\xampp\htdocs\gluten-free\yii1113\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#5 C:\xampp\htdocs\gluten-free\yii1113\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<!--<div id="co...')
+#6 C:\xampp\htdocs\gluten-free\yii1113\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<!--<div id="co...')
+#7 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CBaseController.php(206): COutputProcessor->run()
+#8 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#9 C:\xampp\htdocs\gluten-free\themes\gluten\views\layouts\column1.php(6): CBaseController->endContent()
+#10 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#11 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#12 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php(784): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#13 C:\xampp\htdocs\gluten-free\protected\controllers\SiteController.php(6): CController->render('index')
+#14 C:\xampp\htdocs\gluten-free\yii1113\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#15 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#17 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CWebApplication.php(282): CController->run('')
+#19 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#20 C:\xampp\htdocs\gluten-free\yii1113\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#21 C:\xampp\htdocs\gluten-free\index.php(10): CApplication->run()
+#22 {main}
+REQUEST_URI=/gluten-free/index.php
+HTTP_REFERER=http://localhost/gluten-free/index.php/site/login
+---
+2014/05/06 16:07:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/photo-...')
+#3 C:\xampp\htdocs\gluten-free\yii1113\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\gluten-free\index.php(10): CApplication->run()
+#5 {main}
+REQUEST_URI=/gluten-free/index.php/site/img/photo-patient-profil.png
+HTTP_REFERER=http://localhost/gluten-free/index.php/site/profil
+---
+2014/05/06 16:11:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "jdb.html".' in C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php(270): CController->missingAction('jdb.html')
+#1 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CWebApplication.php(282): CController->run('jdb.html')
+#2 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CWebApplication.php(141): CWebApplication->runController('site/jdb.html')
+#3 C:\xampp\htdocs\gluten-free\yii1113\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\gluten-free\index.php(10): CApplication->run()
+#5 {main}
+REQUEST_URI=/gluten-free/index.php/site/jdb.html
+HTTP_REFERER=http://localhost/gluten-free/index.php/site/index
+---
+2014/05/06 16:11:48 [error] [exception.CHttpException.403] exception 'CHttpException' in C:\xampp\htdocs\gluten-free\protected\controllers\SiteController.php:67
+Stack trace:
+#0 C:\xampp\htdocs\gluten-free\yii1113\framework\web\actions\CInlineAction.php(49): SiteController->actionProfil()
+#1 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#3 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CWebApplication.php(282): CController->run('profil')
+#5 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CWebApplication.php(141): CWebApplication->runController('site/profil')
+#6 C:\xampp\htdocs\gluten-free\yii1113\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#7 C:\xampp\htdocs\gluten-free\index.php(10): CApplication->run()
+#8 {main}
+REQUEST_URI=/gluten-free/index.php/site/profil
+---
+2014/05/06 16:15:33 [error] [php] Trying to get property of non-object (C:\xampp\htdocs\gluten-free\protected\controllers\SiteController.php:74)
+Stack trace:
+#0 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php(286): SiteController->runAction()
+#1 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#2 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CWebApplication.php(282): SiteController->run()
+#3 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\gluten-free\yii1113\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\gluten-free\index.php(10): CWebApplication->run()
+REQUEST_URI=/gluten-free/index.php/site/profil
+in C:\xampp\htdocs\gluten-free\protected\controllers\SiteController.php (74)
+in C:\xampp\htdocs\gluten-free\index.php (10)
+2014/05/06 16:18:27 [error] [exception.CException] exception 'CException' with message 'Property "User.birthday" is not defined.' in C:\xampp\htdocs\gluten-free\yii1113\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\gluten-free\yii1113\framework\db\ar\CActiveRecord.php(143): CComponent->__get('birthday')
+#1 C:\xampp\htdocs\gluten-free\protected\views\site\profil.php(16): CActiveRecord->__get('birthday')
+#2 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#4 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#5 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php(782): CController->renderPartial('profil', Array, true)
+#6 C:\xampp\htdocs\gluten-free\protected\controllers\SiteController.php(80): CController->render('profil', Array)
+#7 C:\xampp\htdocs\gluten-free\yii1113\framework\web\actions\CInlineAction.php(49): SiteController->actionProfil()
+#8 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CWebApplication.php(282): CController->run('profil')
+#12 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CWebApplication.php(141): CWebApplication->runController('site/profil')
+#13 C:\xampp\htdocs\gluten-free\yii1113\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\gluten-free\index.php(10): CApplication->run()
+#15 {main}
+REQUEST_URI=/gluten-free/index.php/site/profil
+HTTP_REFERER=http://localhost/gluten-free/index.php
+---
+2014/05/06 16:30:19 [error] [php] Undefined variable: user (C:\xampp\htdocs\gluten-free\protected\views\site\profil.php:7)
+Stack trace:
+#0 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\xampp\htdocs\gluten-free\protected\controllers\SiteController.php(80): SiteController->render()
+#3 C:\xampp\htdocs\gluten-free\yii1113\framework\web\actions\CInlineAction.php(49): SiteController->actionProfil()
+#4 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\gluten-free\yii1113\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\gluten-free\index.php(10): CWebApplication->run()
+REQUEST_URI=/gluten-free/index.php/site/profil?x=150&y=87
+in C:\xampp\htdocs\gluten-free\protected\views\site\profil.php (7)
+in C:\xampp\htdocs\gluten-free\protected\controllers\SiteController.php (80)
+in C:\xampp\htdocs\gluten-free\index.php (10)
+2014/05/06 16:42:56 [error] [php] Attempt to assign property of non-object (C:\xampp\htdocs\gluten-free\protected\controllers\AjaxController.php:15)
+Stack trace:
+#0 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php(286): AjaxController->runAction()
+#1 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php(265): AjaxController->runActionWithFilters()
+#2 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CWebApplication.php(282): AjaxController->run()
+#3 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\gluten-free\yii1113\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\gluten-free\index.php(10): CWebApplication->run()
+REQUEST_URI=/gluten-free/index.php/ajax/updateProfil
+in C:\xampp\htdocs\gluten-free\protected\controllers\AjaxController.php (15)
+in C:\xampp\htdocs\gluten-free\index.php (10)
+2014/05/06 19:08:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/photo-...')
+#3 C:\xampp\htdocs\gluten-free\yii1113\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\gluten-free\index.php(10): CApplication->run()
+#5 {main}
+REQUEST_URI=/gluten-free/index.php/site/img/photo-medecin-profil.png
+HTTP_REFERER=http://localhost/gluten-free/index.php/site/patient
+---
+2014/05/06 19:08:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/photo-...')
+#3 C:\xampp\htdocs\gluten-free\yii1113\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\gluten-free\index.php(10): CApplication->run()
+#5 {main}
+REQUEST_URI=/gluten-free/index.php/site/img/photo-medecin-profil.png
+HTTP_REFERER=http://localhost/gluten-free/index.php/site/consultation
+---
+2014/05/06 19:08:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/photo-...')
+#3 C:\xampp\htdocs\gluten-free\yii1113\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\gluten-free\index.php(10): CApplication->run()
+#5 {main}
+REQUEST_URI=/gluten-free/index.php/site/img/photo-medecin-profil.png
+HTTP_REFERER=http://localhost/gluten-free/index.php/site/patient
+---
+2014/05/07 10:00:07 [error] [exception.Exception] exception 'Exception' with message 'DateInterval::__construct(): Unknown or bad format (2W)' in C:\xampp\htdocs\gluten-free\protected\controllers\SiteController.php:104
+Stack trace:
+#0 C:\xampp\htdocs\gluten-free\protected\controllers\SiteController.php(104): DateInterval->__construct('2W')
+#1 C:\xampp\htdocs\gluten-free\yii1113\framework\web\actions\CInlineAction.php(49): SiteController->actionJournal()
+#2 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CWebApplication.php(282): CController->run('journal')
+#6 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CWebApplication.php(141): CWebApplication->runController('site/journal')
+#7 C:\xampp\htdocs\gluten-free\yii1113\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\gluten-free\index.php(10): CApplication->run()
+#9 {main}
+REQUEST_URI=/gluten-free/index.php/site/journal
+HTTP_REFERER=http://localhost/gluten-free/index.php/
+---
+2014/05/07 10:44:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "site".' in C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php(270): CController->missingAction('site')
+#1 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CWebApplication.php(282): CController->run('site')
+#2 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CWebApplication.php(141): CWebApplication->runController('site/site/profi...')
+#3 C:\xampp\htdocs\gluten-free\yii1113\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\gluten-free\index.php(10): CApplication->run()
+#5 {main}
+REQUEST_URI=/gluten-free/index.php/site/site/profil
+HTTP_REFERER=http://localhost/gluten-free/index.php/site/journal
+---
+2014/05/07 10:46:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/photo-...')
+#3 C:\xampp\htdocs\gluten-free\yii1113\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\gluten-free\index.php(10): CApplication->run()
+#5 {main}
+REQUEST_URI=/gluten-free/index.php/site/img/photo-medecin-profil.png
+HTTP_REFERER=http://localhost/gluten-free/index.php/site/patient
+---
+2014/05/07 11:11:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/photo-...')
+#3 C:\xampp\htdocs\gluten-free\yii1113\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\gluten-free\index.php(10): CApplication->run()
+#5 {main}
+REQUEST_URI=/gluten-free/index.php/site/img/photo-medecin-profil.png
+HTTP_REFERER=http://localhost/gluten-free/index.php/site/patient
+---
+2014/05/07 11:13:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/photo-...')
+#3 C:\xampp\htdocs\gluten-free\yii1113\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\gluten-free\index.php(10): CApplication->run()
+#5 {main}
+REQUEST_URI=/gluten-free/index.php/site/img/photo-medecin-profil.png
+HTTP_REFERER=http://localhost/gluten-free/index.php/site/patient
+---
+2014/05/07 11:20:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/photo-...')
+#3 C:\xampp\htdocs\gluten-free\yii1113\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\gluten-free\index.php(10): CApplication->run()
+#5 {main}
+REQUEST_URI=/gluten-free/index.php/site/img/photo-medecin-profil.png
+HTTP_REFERER=http://localhost/gluten-free/index.php/site/consultation
+---
+2014/05/12 11:25:17 [error] [exception.CDbException] exception 'CDbException' with message 'Table "note" does not have a column named "datetime".' in C:\xampp\htdocs\gluten-free\yii1113\framework\db\schema\CDbCommandBuilder.php:591
+Stack trace:
+#0 C:\xampp\htdocs\gluten-free\yii1113\framework\db\ar\CActiveRecord.php(1481): CDbCommandBuilder->createColumnCriteria(Object(CMysqlTableSchema), Array, '', Array, '`t`.')
+#1 C:\xampp\htdocs\gluten-free\protected\controllers\SiteController.php(119): CActiveRecord->findAllByAttributes(Array)
+#2 C:\xampp\htdocs\gluten-free\yii1113\framework\web\actions\CInlineAction.php(49): SiteController->actionJournal()
+#3 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CWebApplication.php(282): CController->run('journal')
+#7 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CWebApplication.php(141): CWebApplication->runController('site/journal')
+#8 C:\xampp\htdocs\gluten-free\yii1113\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\gluten-free\index.php(10): CApplication->run()
+#10 {main}
+REQUEST_URI=/gluten-free/index.php/site/journal
+HTTP_REFERER=http://localhost/gluten-free/index.php/site/profil
+---
+2014/05/12 11:29:03 [error] [php] date_format() expects parameter 1 to be DateTimeInterface, object given (C:\xampp\htdocs\gluten-free\protected\controllers\SiteController.php:123)
+Stack trace:
+#0 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php(286): SiteController->runAction()
+#2 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#3 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CWebApplication.php(282): SiteController->run()
+#4 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\xampp\htdocs\gluten-free\yii1113\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\gluten-free\index.php(10): CWebApplication->run()
+REQUEST_URI=/gluten-free/index.php/site/journal
+in C:\xampp\htdocs\gluten-free\protected\controllers\SiteController.php (123)
+in C:\xampp\htdocs\gluten-free\index.php (10)
+2014/05/12 11:31:58 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'user_id' in where clause is ambiguous. The SQL statement executed was: SELECT `t`.`note_id` AS `t0_c0`, `t`.`user_id` AS `t0_c1`, `t`.`doctor_id` AS `t0_c2`, `t`.`content` AS `t0_c3`, `t`.`date` AS `t0_c4`, `t`.`type` AS `t0_c5`, `user`.`user_id` AS `t1_c0`, `user`.`email` AS `t1_c1`, `user`.`password` AS `t1_c2`, `user`.`picture_src` AS `t1_c3`, `user`.`lastname` AS `t1_c4`, `user`.`firstname` AS `t1_c5`, `user`.`phone_number` AS `t1_c6`, `user`.`address_1` AS `t1_c7`, `user`.`address_2` AS `t1_c8`, `user`.`is_doctor` AS `t1_c9`, `doctor`.`doctor_id` AS `t2_c0`, `doctor`.`user_id` AS `t2_c1` FROM `note` `t`  LEFT OUTER JOIN `user` `user` ON (`t`.`user_id`=`user`.`user_id`)  LEFT OUTER JOIN `doctor` `doctor` ON (`t`.`doctor_id`=`doctor`.`doctor_id`)  WHERE (user_id = 5 AND date >= 2014-05-12).
+in C:\xampp\htdocs\gluten-free\protected\controllers\SiteController.php (120)
+in C:\xampp\htdocs\gluten-free\index.php (10)
+2014/05/12 11:31:58 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'user_id' in where clause is ambiguous. The SQL statement executed was: SELECT `t`.`note_id` AS `t0_c0`, `t`.`user_id` AS `t0_c1`, `t`.`doctor_id` AS `t0_c2`, `t`.`content` AS `t0_c3`, `t`.`date` AS `t0_c4`, `t`.`type` AS `t0_c5`, `user`.`user_id` AS `t1_c0`, `user`.`email` AS `t1_c1`, `user`.`password` AS `t1_c2`, `user`.`picture_src` AS `t1_c3`, `user`.`lastname` AS `t1_c4`, `user`.`firstname` AS `t1_c5`, `user`.`phone_number` AS `t1_c6`, `user`.`address_1` AS `t1_c7`, `user`.`address_2` AS `t1_c8`, `user`.`is_doctor` AS `t1_c9`, `doctor`.`doctor_id` AS `t2_c0`, `doctor`.`user_id` AS `t2_c1` FROM `note` `t`  LEFT OUTER JOIN `user` `user` ON (`t`.`user_id`=`user`.`user_id`)  LEFT OUTER JOIN `doctor` `doctor` ON (`t`.`doctor_id`=`doctor`.`doctor_id`)  WHERE (user_id = 5 AND date >= 2014-05-12)' in C:\xampp\htdocs\gluten-free\yii1113\framework\db\CDbCommand.php:541
+Stack trace:
+#0 C:\xampp\htdocs\gluten-free\yii1113\framework\db\CDbCommand.php(395): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\xampp\htdocs\gluten-free\yii1113\framework\db\ar\CActiveFinder.php(761): CDbCommand->queryAll()
+#2 C:\xampp\htdocs\gluten-free\yii1113\framework\db\ar\CActiveFinder.php(422): CJoinElement->runQuery(Object(CJoinQuery))
+#3 C:\xampp\htdocs\gluten-free\yii1113\framework\db\ar\CActiveFinder.php(68): CJoinElement->find(Object(CDbCriteria))
+#4 C:\xampp\htdocs\gluten-free\yii1113\framework\db\ar\CActiveRecord.php(1302): CActiveFinder->query(Object(CDbCriteria), true)
+#5 C:\xampp\htdocs\gluten-free\yii1113\framework\db\ar\CActiveRecord.php(1416): CActiveRecord->query(Object(CDbCriteria), true)
+#6 C:\xampp\htdocs\gluten-free\protected\controllers\SiteController.php(120): CActiveRecord->findAll(Object(CDbCriteria))
+#7 C:\xampp\htdocs\gluten-free\yii1113\framework\web\actions\CInlineAction.php(49): SiteController->actionJournal()
+#8 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CWebApplication.php(282): CController->run('journal')
+#12 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CWebApplication.php(141): CWebApplication->runController('site/journal')
+#13 C:\xampp\htdocs\gluten-free\yii1113\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\gluten-free\index.php(10): CApplication->run()
+#15 {main}
+REQUEST_URI=/gluten-free/index.php/site/journal
+HTTP_REFERER=http://localhost/gluten-free/index.php/site/profil
+---
+2014/05/12 11:32:30 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'note.date' in 'where clause'. The SQL statement executed was: SELECT `t`.`note_id` AS `t0_c0`, `t`.`user_id` AS `t0_c1`, `t`.`doctor_id` AS `t0_c2`, `t`.`content` AS `t0_c3`, `t`.`date` AS `t0_c4`, `t`.`type` AS `t0_c5`, `user`.`user_id` AS `t1_c0`, `user`.`email` AS `t1_c1`, `user`.`password` AS `t1_c2`, `user`.`picture_src` AS `t1_c3`, `user`.`lastname` AS `t1_c4`, `user`.`firstname` AS `t1_c5`, `user`.`phone_number` AS `t1_c6`, `user`.`address_1` AS `t1_c7`, `user`.`address_2` AS `t1_c8`, `user`.`is_doctor` AS `t1_c9`, `doctor`.`doctor_id` AS `t2_c0`, `doctor`.`user_id` AS `t2_c1` FROM `note` `t`  LEFT OUTER JOIN `user` `user` ON (`t`.`user_id`=`user`.`user_id`)  LEFT OUTER JOIN `doctor` `doctor` ON (`t`.`doctor_id`=`doctor`.`doctor_id`)  WHERE (user.user_id = 5 AND note.date >= 2014-05-12).
+in C:\xampp\htdocs\gluten-free\protected\controllers\SiteController.php (120)
+in C:\xampp\htdocs\gluten-free\index.php (10)
+2014/05/12 11:32:30 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'note.date' in 'where clause'. The SQL statement executed was: SELECT `t`.`note_id` AS `t0_c0`, `t`.`user_id` AS `t0_c1`, `t`.`doctor_id` AS `t0_c2`, `t`.`content` AS `t0_c3`, `t`.`date` AS `t0_c4`, `t`.`type` AS `t0_c5`, `user`.`user_id` AS `t1_c0`, `user`.`email` AS `t1_c1`, `user`.`password` AS `t1_c2`, `user`.`picture_src` AS `t1_c3`, `user`.`lastname` AS `t1_c4`, `user`.`firstname` AS `t1_c5`, `user`.`phone_number` AS `t1_c6`, `user`.`address_1` AS `t1_c7`, `user`.`address_2` AS `t1_c8`, `user`.`is_doctor` AS `t1_c9`, `doctor`.`doctor_id` AS `t2_c0`, `doctor`.`user_id` AS `t2_c1` FROM `note` `t`  LEFT OUTER JOIN `user` `user` ON (`t`.`user_id`=`user`.`user_id`)  LEFT OUTER JOIN `doctor` `doctor` ON (`t`.`doctor_id`=`doctor`.`doctor_id`)  WHERE (user.user_id = 5 AND note.date >= 2014-05-12)' in C:\xampp\htdocs\gluten-free\yii1113\framework\db\CDbCommand.php:541
+Stack trace:
+#0 C:\xampp\htdocs\gluten-free\yii1113\framework\db\CDbCommand.php(395): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\xampp\htdocs\gluten-free\yii1113\framework\db\ar\CActiveFinder.php(761): CDbCommand->queryAll()
+#2 C:\xampp\htdocs\gluten-free\yii1113\framework\db\ar\CActiveFinder.php(422): CJoinElement->runQuery(Object(CJoinQuery))
+#3 C:\xampp\htdocs\gluten-free\yii1113\framework\db\ar\CActiveFinder.php(68): CJoinElement->find(Object(CDbCriteria))
+#4 C:\xampp\htdocs\gluten-free\yii1113\framework\db\ar\CActiveRecord.php(1302): CActiveFinder->query(Object(CDbCriteria), true)
+#5 C:\xampp\htdocs\gluten-free\yii1113\framework\db\ar\CActiveRecord.php(1416): CActiveRecord->query(Object(CDbCriteria), true)
+#6 C:\xampp\htdocs\gluten-free\protected\controllers\SiteController.php(120): CActiveRecord->findAll(Object(CDbCriteria))
+#7 C:\xampp\htdocs\gluten-free\yii1113\framework\web\actions\CInlineAction.php(49): SiteController->actionJournal()
+#8 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CWebApplication.php(282): CController->run('journal')
+#12 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CWebApplication.php(141): CWebApplication->runController('site/journal')
+#13 C:\xampp\htdocs\gluten-free\yii1113\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\gluten-free\index.php(10): CApplication->run()
+#15 {main}
+REQUEST_URI=/gluten-free/index.php/site/journal
+HTTP_REFERER=http://localhost/gluten-free/index.php/site/profil
+---
+2014/05/12 11:32:54 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'note.user_id' in 'where clause'. The SQL statement executed was: SELECT `t`.`note_id` AS `t0_c0`, `t`.`user_id` AS `t0_c1`, `t`.`doctor_id` AS `t0_c2`, `t`.`content` AS `t0_c3`, `t`.`date` AS `t0_c4`, `t`.`type` AS `t0_c5`, `user`.`user_id` AS `t1_c0`, `user`.`email` AS `t1_c1`, `user`.`password` AS `t1_c2`, `user`.`picture_src` AS `t1_c3`, `user`.`lastname` AS `t1_c4`, `user`.`firstname` AS `t1_c5`, `user`.`phone_number` AS `t1_c6`, `user`.`address_1` AS `t1_c7`, `user`.`address_2` AS `t1_c8`, `user`.`is_doctor` AS `t1_c9`, `doctor`.`doctor_id` AS `t2_c0`, `doctor`.`user_id` AS `t2_c1` FROM `note` `t`  LEFT OUTER JOIN `user` `user` ON (`t`.`user_id`=`user`.`user_id`)  LEFT OUTER JOIN `doctor` `doctor` ON (`t`.`doctor_id`=`doctor`.`doctor_id`)  WHERE (note.user_id = 5 AND note.date >= 2014-05-12).
+in C:\xampp\htdocs\gluten-free\protected\controllers\SiteController.php (120)
+in C:\xampp\htdocs\gluten-free\index.php (10)
+2014/05/12 11:32:54 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'note.user_id' in 'where clause'. The SQL statement executed was: SELECT `t`.`note_id` AS `t0_c0`, `t`.`user_id` AS `t0_c1`, `t`.`doctor_id` AS `t0_c2`, `t`.`content` AS `t0_c3`, `t`.`date` AS `t0_c4`, `t`.`type` AS `t0_c5`, `user`.`user_id` AS `t1_c0`, `user`.`email` AS `t1_c1`, `user`.`password` AS `t1_c2`, `user`.`picture_src` AS `t1_c3`, `user`.`lastname` AS `t1_c4`, `user`.`firstname` AS `t1_c5`, `user`.`phone_number` AS `t1_c6`, `user`.`address_1` AS `t1_c7`, `user`.`address_2` AS `t1_c8`, `user`.`is_doctor` AS `t1_c9`, `doctor`.`doctor_id` AS `t2_c0`, `doctor`.`user_id` AS `t2_c1` FROM `note` `t`  LEFT OUTER JOIN `user` `user` ON (`t`.`user_id`=`user`.`user_id`)  LEFT OUTER JOIN `doctor` `doctor` ON (`t`.`doctor_id`=`doctor`.`doctor_id`)  WHERE (note.user_id = 5 AND note.date >= 2014-05-12)' in C:\xampp\htdocs\gluten-free\yii1113\framework\db\CDbCommand.php:541
+Stack trace:
+#0 C:\xampp\htdocs\gluten-free\yii1113\framework\db\CDbCommand.php(395): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\xampp\htdocs\gluten-free\yii1113\framework\db\ar\CActiveFinder.php(761): CDbCommand->queryAll()
+#2 C:\xampp\htdocs\gluten-free\yii1113\framework\db\ar\CActiveFinder.php(422): CJoinElement->runQuery(Object(CJoinQuery))
+#3 C:\xampp\htdocs\gluten-free\yii1113\framework\db\ar\CActiveFinder.php(68): CJoinElement->find(Object(CDbCriteria))
+#4 C:\xampp\htdocs\gluten-free\yii1113\framework\db\ar\CActiveRecord.php(1302): CActiveFinder->query(Object(CDbCriteria), true)
+#5 C:\xampp\htdocs\gluten-free\yii1113\framework\db\ar\CActiveRecord.php(1416): CActiveRecord->query(Object(CDbCriteria), true)
+#6 C:\xampp\htdocs\gluten-free\protected\controllers\SiteController.php(120): CActiveRecord->findAll(Object(CDbCriteria))
+#7 C:\xampp\htdocs\gluten-free\yii1113\framework\web\actions\CInlineAction.php(49): SiteController->actionJournal()
+#8 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CWebApplication.php(282): CController->run('journal')
+#12 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CWebApplication.php(141): CWebApplication->runController('site/journal')
+#13 C:\xampp\htdocs\gluten-free\yii1113\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\gluten-free\index.php(10): CApplication->run()
+#15 {main}
+REQUEST_URI=/gluten-free/index.php/site/journal
+HTTP_REFERER=http://localhost/gluten-free/index.php/site/profil
+---
+2014/05/14 09:06:08 [error] [php] Undefined index: value (C:\xampp\htdocs\gluten-free\protected\controllers\AjaxController.php:83)
+Stack trace:
+#0 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php(286): AjaxController->runAction()
+#1 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php(265): AjaxController->runActionWithFilters()
+#2 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CWebApplication.php(282): AjaxController->run()
+#3 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\gluten-free\yii1113\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\gluten-free\index.php(10): CWebApplication->run()
+REQUEST_URI=/gluten-free/index.php/ajax/getPatients
+in C:\xampp\htdocs\gluten-free\protected\controllers\AjaxController.php (83)
+in C:\xampp\htdocs\gluten-free\index.php (10)
+2014/05/14 09:06:22 [error] [php] Undefined index: value (C:\xampp\htdocs\gluten-free\protected\controllers\AjaxController.php:83)
+Stack trace:
+#0 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php(286): AjaxController->runAction()
+#1 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php(265): AjaxController->runActionWithFilters()
+#2 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CWebApplication.php(282): AjaxController->run()
+#3 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\gluten-free\yii1113\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\gluten-free\index.php(10): CWebApplication->run()
+REQUEST_URI=/gluten-free/index.php/ajax/getPatients
+in C:\xampp\htdocs\gluten-free\protected\controllers\AjaxController.php (83)
+in C:\xampp\htdocs\gluten-free\index.php (10)
+2014/05/14 09:07:00 [error] [php] Undefined index: value (C:\xampp\htdocs\gluten-free\protected\controllers\AjaxController.php:83)
+Stack trace:
+#0 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php(286): AjaxController->runAction()
+#1 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php(265): AjaxController->runActionWithFilters()
+#2 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CWebApplication.php(282): AjaxController->run()
+#3 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\gluten-free\yii1113\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\gluten-free\index.php(10): CWebApplication->run()
+REQUEST_URI=/gluten-free/index.php/ajax/getPatients
+in C:\xampp\htdocs\gluten-free\protected\controllers\AjaxController.php (83)
+in C:\xampp\htdocs\gluten-free\index.php (10)
+2014/05/14 09:07:25 [error] [php] Undefined index: value (C:\xampp\htdocs\gluten-free\protected\controllers\AjaxController.php:83)
+Stack trace:
+#0 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php(286): AjaxController->runAction()
+#1 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php(265): AjaxController->runActionWithFilters()
+#2 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CWebApplication.php(282): AjaxController->run()
+#3 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\gluten-free\yii1113\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\gluten-free\index.php(10): CWebApplication->run()
+REQUEST_URI=/gluten-free/index.php/ajax/getPatients
+in C:\xampp\htdocs\gluten-free\protected\controllers\AjaxController.php (83)
+in C:\xampp\htdocs\gluten-free\index.php (10)
+2014/05/14 09:10:43 [error] [php] Undefined index: value (C:\xampp\htdocs\gluten-free\protected\controllers\AjaxController.php:83)
+Stack trace:
+#0 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php(286): AjaxController->runAction()
+#1 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php(265): AjaxController->runActionWithFilters()
+#2 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CWebApplication.php(282): AjaxController->run()
+#3 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\gluten-free\yii1113\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\gluten-free\index.php(10): CWebApplication->run()
+REQUEST_URI=/gluten-free/index.php/ajax/getPatients
+in C:\xampp\htdocs\gluten-free\protected\controllers\AjaxController.php (83)
+in C:\xampp\htdocs\gluten-free\index.php (10)
+2014/05/14 09:57:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "site".' in C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php(270): CController->missingAction('site')
+#1 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CWebApplication.php(282): CController->run('site')
+#2 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CWebApplication.php(141): CWebApplication->runController('site/site/patie...')
+#3 C:\xampp\htdocs\gluten-free\yii1113\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\gluten-free\index.php(10): CApplication->run()
+#5 {main}
+REQUEST_URI=/gluten-free/index.php/site/site/patient
+HTTP_REFERER=http://localhost/gluten-free/index.php/site/patient
+---
+2014/05/14 10:17:01 [error] [php] Undefined index: value (C:\xampp\htdocs\gluten-free\protected\controllers\AjaxController.php:64)
+Stack trace:
+#0 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php(286): AjaxController->runAction()
+#1 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php(265): AjaxController->runActionWithFilters()
+#2 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CWebApplication.php(282): AjaxController->run()
+#3 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\gluten-free\yii1113\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\gluten-free\index.php(10): CWebApplication->run()
+REQUEST_URI=/gluten-free/index.php/ajax/addNote
+in C:\xampp\htdocs\gluten-free\protected\controllers\AjaxController.php (64)
+in C:\xampp\htdocs\gluten-free\index.php (10)
+2014/05/14 10:17:32 [error] [php] Undefined index: value (C:\xampp\htdocs\gluten-free\protected\controllers\AjaxController.php:84)
+Stack trace:
+#0 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php(286): AjaxController->runAction()
+#1 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php(265): AjaxController->runActionWithFilters()
+#2 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CWebApplication.php(282): AjaxController->run()
+#3 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\gluten-free\yii1113\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\gluten-free\index.php(10): CWebApplication->run()
+REQUEST_URI=/gluten-free/index.php/ajax/addDoctorNote
+in C:\xampp\htdocs\gluten-free\protected\controllers\AjaxController.php (84)
+in C:\xampp\htdocs\gluten-free\index.php (10)
+2014/05/14 10:25:35 [error] [php] Object of class DateTime could not be converted to string (C:\xampp\htdocs\gluten-free\protected\views\site\journal.php:16)
+Stack trace:
+#0 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\xampp\htdocs\gluten-free\protected\controllers\SiteController.php(149): SiteController->render()
+#3 C:\xampp\htdocs\gluten-free\yii1113\framework\web\actions\CInlineAction.php(49): SiteController->actionJournal()
+#4 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\gluten-free\yii1113\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\gluten-free\index.php(10): CWebApplication->run()
+REQUEST_URI=/gluten-free/index.php/site/journal
+in C:\xampp\htdocs\gluten-free\protected\views\site\journal.php (16)
+in C:\xampp\htdocs\gluten-free\protected\controllers\SiteController.php (149)
+in C:\xampp\htdocs\gluten-free\index.php (10)
+2014/05/14 10:27:47 [error] [php] strftime() expects parameter 2 to be long, object given (C:\xampp\htdocs\gluten-free\protected\views\site\journal.php:17)
+Stack trace:
+#0 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#1 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php(869): SiteController->renderFile()
+#2 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php(782): SiteController->renderPartial()
+#3 C:\xampp\htdocs\gluten-free\protected\controllers\SiteController.php(149): SiteController->render()
+#4 C:\xampp\htdocs\gluten-free\yii1113\framework\web\actions\CInlineAction.php(49): SiteController->actionJournal()
+#5 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php(308): CInlineAction->runWithParams()
+#6 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php(286): SiteController->runAction()
+#7 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#8 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CWebApplication.php(282): SiteController->run()
+#9 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 C:\xampp\htdocs\gluten-free\yii1113\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\gluten-free\index.php(10): CWebApplication->run()
+REQUEST_URI=/gluten-free/index.php/site/journal
+in C:\xampp\htdocs\gluten-free\protected\views\site\journal.php (17)
+in C:\xampp\htdocs\gluten-free\protected\controllers\SiteController.php (149)
+in C:\xampp\htdocs\gluten-free\index.php (10)
+2014/05/14 10:34:26 [error] [php] Undefined variable: current_week (C:\xampp\htdocs\gluten-free\protected\views\site\journal.php:8)
+Stack trace:
+#0 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\xampp\htdocs\gluten-free\protected\controllers\SiteController.php(150): SiteController->render()
+#3 C:\xampp\htdocs\gluten-free\yii1113\framework\web\actions\CInlineAction.php(49): SiteController->actionJournal()
+#4 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\gluten-free\yii1113\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\gluten-free\index.php(10): CWebApplication->run()
+REQUEST_URI=/gluten-free/index.php/site/journal?date=&current_week=1&direction=left
+in C:\xampp\htdocs\gluten-free\protected\views\site\journal.php (8)
+in C:\xampp\htdocs\gluten-free\protected\controllers\SiteController.php (150)
+in C:\xampp\htdocs\gluten-free\index.php (10)
+2014/05/14 11:27:51 [error] [exception.CException] exception 'CException' with message 'Property "Note.patient_id" is not defined.' in C:\xampp\htdocs\gluten-free\yii1113\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\gluten-free\yii1113\framework\db\ar\CActiveRecord.php(143): CComponent->__get('patient_id')
+#1 C:\xampp\htdocs\gluten-free\protected\views\site\journal.php(72): CActiveRecord->__get('patient_id')
+#2 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#4 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#5 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php(782): CController->renderPartial('journal', Array, true)
+#6 C:\xampp\htdocs\gluten-free\protected\controllers\SiteController.php(172): CController->render('journal', Array)
+#7 C:\xampp\htdocs\gluten-free\yii1113\framework\web\actions\CInlineAction.php(49): SiteController->actionJournal()
+#8 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CWebApplication.php(282): CController->run('journal')
+#12 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CWebApplication.php(141): CWebApplication->runController('site/journal')
+#13 C:\xampp\htdocs\gluten-free\yii1113\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\gluten-free\index.php(10): CApplication->run()
+#15 {main}
+REQUEST_URI=/gluten-free/index.php/site/journal?date=2014-05-14&current_week=20
+HTTP_REFERER=http://localhost/gluten-free/index.php/site/journal?date=2014-05-20&current_week=21&direction=left
+---
+2014/05/14 11:28:06 [error] [exception.CException] exception 'CException' with message 'Property "User.patient_id" is not defined.' in C:\xampp\htdocs\gluten-free\yii1113\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\gluten-free\yii1113\framework\db\ar\CActiveRecord.php(143): CComponent->__get('patient_id')
+#1 C:\xampp\htdocs\gluten-free\protected\views\site\journal.php(72): CActiveRecord->__get('patient_id')
+#2 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#4 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#5 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php(782): CController->renderPartial('journal', Array, true)
+#6 C:\xampp\htdocs\gluten-free\protected\controllers\SiteController.php(172): CController->render('journal', Array)
+#7 C:\xampp\htdocs\gluten-free\yii1113\framework\web\actions\CInlineAction.php(49): SiteController->actionJournal()
+#8 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CWebApplication.php(282): CController->run('journal')
+#12 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CWebApplication.php(141): CWebApplication->runController('site/journal')
+#13 C:\xampp\htdocs\gluten-free\yii1113\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\gluten-free\index.php(10): CApplication->run()
+#15 {main}
+REQUEST_URI=/gluten-free/index.php/site/journal?date=2014-05-14&current_week=20
+HTTP_REFERER=http://localhost/gluten-free/index.php/site/journal?date=2014-05-20&current_week=21&direction=left
+---
+2014/05/14 11:34:38 [error] [php] Undefined index: note_id (C:\xampp\htdocs\gluten-free\protected\controllers\AjaxController.php:144)
+Stack trace:
+#0 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php(286): AjaxController->runAction()
+#1 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php(265): AjaxController->runActionWithFilters()
+#2 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CWebApplication.php(282): AjaxController->run()
+#3 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\gluten-free\yii1113\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\gluten-free\index.php(10): CWebApplication->run()
+REQUEST_URI=/gluten-free/index.php/ajax/removeCount
+in C:\xampp\htdocs\gluten-free\protected\controllers\AjaxController.php (144)
+in C:\xampp\htdocs\gluten-free\index.php (10)
+2014/05/14 11:34:50 [error] [php] Undefined index: note_id (C:\xampp\htdocs\gluten-free\protected\controllers\AjaxController.php:144)
+Stack trace:
+#0 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php(286): AjaxController->runAction()
+#1 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php(265): AjaxController->runActionWithFilters()
+#2 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CWebApplication.php(282): AjaxController->run()
+#3 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\gluten-free\yii1113\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\gluten-free\index.php(10): CWebApplication->run()
+REQUEST_URI=/gluten-free/index.php/ajax/removeCount
+in C:\xampp\htdocs\gluten-free\protected\controllers\AjaxController.php (144)
+in C:\xampp\htdocs\gluten-free\index.php (10)
+2014/05/14 13:54:07 [error] [exception.CException] exception 'CException' with message 'Property "User.doctor_id" is not defined.' in C:\xampp\htdocs\gluten-free\yii1113\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\gluten-free\yii1113\framework\db\ar\CActiveRecord.php(143): CComponent->__get('doctor_id')
+#1 C:\xampp\htdocs\gluten-free\protected\views\site\consultation.php(44): CActiveRecord->__get('doctor_id')
+#2 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#4 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#5 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php(782): CController->renderPartial('consultation', Array, true)
+#6 C:\xampp\htdocs\gluten-free\protected\controllers\SiteController.php(196): CController->render('consultation', Array)
+#7 C:\xampp\htdocs\gluten-free\yii1113\framework\web\actions\CInlineAction.php(49): SiteController->actionConsultation()
+#8 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CWebApplication.php(282): CController->run('consultation')
+#12 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CWebApplication.php(141): CWebApplication->runController('site/consultati...')
+#13 C:\xampp\htdocs\gluten-free\yii1113\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\gluten-free\index.php(10): CApplication->run()
+#15 {main}
+REQUEST_URI=/gluten-free/index.php/site/consultation?id=3
+HTTP_REFERER=http://localhost/gluten-free/index.php/site/patient
+---
+2014/05/14 14:02:45 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php:336
+Stack trace:
+#0 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CWebApplication.php(282): CController->run('addDoctorNote')
+#4 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CWebApplication.php(141): CWebApplication->runController('ajax/addDoctorN...')
+#5 C:\xampp\htdocs\gluten-free\yii1113\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\gluten-free\index.php(10): CApplication->run()
+#7 {main}
+REQUEST_URI=/gluten-free/index.php/ajax/addDoctorNote
+HTTP_REFERER=http://localhost/gluten-free/index.php/site/consultation?id=3
+---
+2014/05/14 14:02:53 [error] [php] Undefined index: user_id (C:\xampp\htdocs\gluten-free\protected\controllers\AjaxController.php:83)
+Stack trace:
+#0 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php(286): AjaxController->runAction()
+#1 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php(265): AjaxController->runActionWithFilters()
+#2 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CWebApplication.php(282): AjaxController->run()
+#3 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\gluten-free\yii1113\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\gluten-free\index.php(10): CWebApplication->run()
+REQUEST_URI=/gluten-free/index.php/ajax/addDoctorNote
+in C:\xampp\htdocs\gluten-free\protected\controllers\AjaxController.php (83)
+in C:\xampp\htdocs\gluten-free\index.php (10)
+2014/05/14 14:03:30 [error] [php] Undefined index: user_id (C:\xampp\htdocs\gluten-free\protected\controllers\AjaxController.php:83)
+Stack trace:
+#0 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php(286): AjaxController->runAction()
+#1 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php(265): AjaxController->runActionWithFilters()
+#2 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CWebApplication.php(282): AjaxController->run()
+#3 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\gluten-free\yii1113\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\gluten-free\index.php(10): CWebApplication->run()
+REQUEST_URI=/gluten-free/index.php/ajax/addDoctorNote
+in C:\xampp\htdocs\gluten-free\protected\controllers\AjaxController.php (83)
+in C:\xampp\htdocs\gluten-free\index.php (10)
+2014/05/14 14:19:56 [error] [php] Undefined index: is_doctor (C:\xampp\htdocs\gluten-free\protected\controllers\SiteController.php:43)
+Stack trace:
+#0 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php(286): SiteController->runAction()
+#1 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#2 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CWebApplication.php(282): SiteController->run()
+#3 C:\xampp\htdocs\gluten-free\yii1113\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\gluten-free\yii1113\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\gluten-free\index.php(10): CWebApplication->run()
+REQUEST_URI=/gluten-free/index.php/site/register
+in C:\xampp\htdocs\gluten-free\protected\controllers\SiteController.php (43)
+in C:\xampp\htdocs\gluten-free\index.php (10)
+2014/05/14 14:58:09 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)' in /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/db/CDbConnection.php:381
+Stack trace:
+#0 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/base/CModule.php(387): CDbConnection->init()
+#3 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/base/CApplication.php(438): CModule->getComponent('db')
+#4 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/db/ar/CActiveRecord.php(623): CApplication->getDb()
+#5 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/db/ar/CActiveRecord.php(2309): CActiveRecord->getDbConnection()
+#6 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/db/ar/CActiveRecord.php(387): CActiveRecordMetaData->__construct(Object(User))
+#7 /homez.614/jacobdub/www/tfe/gluten-free/protected/models/User.php(31): CActiveRecord::model('User')
+#8 /homez.614/jacobdub/www/tfe/gluten-free/protected/components/UserIdentity.php(20): User::model()
+#9 /homez.614/jacobdub/www/tfe/gluten-free/protected/models/LoginForm.php(52): UserIdentity->authenticate()
+#10 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/validators/CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#11 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/validators/CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#12 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/base/CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#13 /homez.614/jacobdub/www/tfe/gluten-free/protected/controllers/SiteController.php(25): CModel->validate()
+#14 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/web/actions/CInlineAction.php(49): SiteController->actionLogin()
+#15 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#16 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#17 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CWebApplication.php(282): CController->run('login')
+#19 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CWebApplication.php(141): CWebApplication->runController('site/login')
+#20 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#21 /homez.614/jacobdub/www/tfe/gluten-free/index.php(10): CApplication->run()
+#22 {main}
+REQUEST_URI=/tfe/gluten-free/index.php/site/login
+HTTP_REFERER=http://jacobdubut.be/tfe/gluten-free/index.php/site/login
+---
+2014/05/14 21:43:32 [error] [exception.CException] exception 'CException' with message 'SiteController contains improperly nested widget tags in its view "/homez.614/jacobdub/www/tfe/gluten-free/themes/gluten/views//layouts/column1.php". A CContentDecorator widget does not have an endWidget() call.' in /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CBaseController.php:101
+Stack trace:
+#0 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CController.php(784): CBaseController->renderFile('/homez.614/jaco...', Array, true)
+#1 /homez.614/jacobdub/www/tfe/gluten-free/protected/controllers/SiteController.php(6): CController->render('index')
+#2 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#3 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CWebApplication.php(282): CController->run('index')
+#7 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CWebApplication.php(141): CWebApplication->runController('site/index')
+#8 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#9 /homez.614/jacobdub/www/tfe/gluten-free/index.php(10): CApplication->run()
+#10 {main}
+REQUEST_URI=/tfe/gluten-free/index.php/site/index
+HTTP_REFERER=http://jacobdubut.be/tfe/gluten-free/index.php/site/index
+---
+2014/05/15 13:53:24 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY date DESC' at line 1. The SQL statement executed was: SELECT * FROM `note` `t` WHERE user_id =  ORDER BY date DESC.
+in /homez.614/jacobdub/www/tfe/gluten-free/protected/controllers/SiteController.php (186)
+in /homez.614/jacobdub/www/tfe/gluten-free/index.php (10)
+2014/05/15 13:53:24 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY date DESC' at line 1. The SQL statement executed was: SELECT * FROM `note` `t` WHERE user_id =  ORDER BY date DESC' in /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/db/CDbCommand.php:541
+Stack trace:
+#0 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/db/CDbCommand.php(395): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/db/ar/CActiveRecord.php(1297): CDbCommand->queryAll()
+#2 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/db/ar/CActiveRecord.php(1416): CActiveRecord->query(Object(CDbCriteria), true)
+#3 /homez.614/jacobdub/www/tfe/gluten-free/protected/controllers/SiteController.php(186): CActiveRecord->findAll(Object(CDbCriteria))
+#4 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/web/actions/CInlineAction.php(49): SiteController->actionConsultation()
+#5 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#6 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#7 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CWebApplication.php(282): CController->run('consultation')
+#9 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CWebApplication.php(141): CWebApplication->runController('site/consultati...')
+#10 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#11 /homez.614/jacobdub/www/tfe/gluten-free/index.php(10): CApplication->run()
+#12 {main}
+REQUEST_URI=/tfe/gluten-free/index.php/site/consultation
+HTTP_REFERER=http://jacobdubut.be/tfe/gluten-free/index.php/site/patient
+---
+2014/05/15 13:53:34 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY date DESC' at line 1. The SQL statement executed was: SELECT * FROM `note` `t` WHERE user_id =  ORDER BY date DESC.
+in /homez.614/jacobdub/www/tfe/gluten-free/protected/controllers/SiteController.php (186)
+in /homez.614/jacobdub/www/tfe/gluten-free/index.php (10)
+2014/05/15 13:53:34 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY date DESC' at line 1. The SQL statement executed was: SELECT * FROM `note` `t` WHERE user_id =  ORDER BY date DESC' in /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/db/CDbCommand.php:541
+Stack trace:
+#0 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/db/CDbCommand.php(395): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/db/ar/CActiveRecord.php(1297): CDbCommand->queryAll()
+#2 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/db/ar/CActiveRecord.php(1416): CActiveRecord->query(Object(CDbCriteria), true)
+#3 /homez.614/jacobdub/www/tfe/gluten-free/protected/controllers/SiteController.php(186): CActiveRecord->findAll(Object(CDbCriteria))
+#4 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/web/actions/CInlineAction.php(49): SiteController->actionConsultation()
+#5 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#6 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#7 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CWebApplication.php(282): CController->run('consultation')
+#9 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CWebApplication.php(141): CWebApplication->runController('site/consultati...')
+#10 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#11 /homez.614/jacobdub/www/tfe/gluten-free/index.php(10): CApplication->run()
+#12 {main}
+REQUEST_URI=/tfe/gluten-free/index.php/site/consultation
+HTTP_REFERER=http://jacobdubut.be/tfe/gluten-free/index.php/site/patient
+---
+2014/05/15 13:54:00 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY date DESC' at line 1. The SQL statement executed was: SELECT * FROM `note` `t` WHERE user_id =  ORDER BY date DESC.
+in /homez.614/jacobdub/www/tfe/gluten-free/protected/controllers/SiteController.php (186)
+in /homez.614/jacobdub/www/tfe/gluten-free/index.php (10)
+2014/05/15 13:54:00 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY date DESC' at line 1. The SQL statement executed was: SELECT * FROM `note` `t` WHERE user_id =  ORDER BY date DESC' in /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/db/CDbCommand.php:541
+Stack trace:
+#0 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/db/CDbCommand.php(395): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/db/ar/CActiveRecord.php(1297): CDbCommand->queryAll()
+#2 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/db/ar/CActiveRecord.php(1416): CActiveRecord->query(Object(CDbCriteria), true)
+#3 /homez.614/jacobdub/www/tfe/gluten-free/protected/controllers/SiteController.php(186): CActiveRecord->findAll(Object(CDbCriteria))
+#4 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/web/actions/CInlineAction.php(49): SiteController->actionConsultation()
+#5 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#6 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#7 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CWebApplication.php(282): CController->run('consultation')
+#9 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CWebApplication.php(141): CWebApplication->runController('site/consultati...')
+#10 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#11 /homez.614/jacobdub/www/tfe/gluten-free/index.php(10): CApplication->run()
+#12 {main}
+REQUEST_URI=/tfe/gluten-free/index.php/site/consultation
+HTTP_REFERER=http://jacobdubut.be/tfe/gluten-free/index.php/site/patient
+---
+2014/05/15 13:59:53 [error] [php] Invalid argument supplied for foreach() (/homez.614/jacobdub/www/tfe/gluten-free/protected/views/site/profil.php:65)
+Stack trace:
+#0 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CController.php(869): SiteController->renderFile()
+#1 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CController.php(782): SiteController->renderPartial()
+#2 /homez.614/jacobdub/www/tfe/gluten-free/protected/controllers/SiteController.php(94): SiteController->render()
+#3 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/web/actions/CInlineAction.php(49): SiteController->actionProfil()
+#4 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CController.php(286): SiteController->runAction()
+#6 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#7 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CWebApplication.php(282): SiteController->run()
+#8 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#10 /homez.614/jacobdub/www/tfe/gluten-free/index.php(10): CWebApplication->run()
+REQUEST_URI=/tfe/gluten-free/index.php/site/profil
+in /homez.614/jacobdub/www/tfe/gluten-free/protected/views/site/profil.php (65)
+in /homez.614/jacobdub/www/tfe/gluten-free/protected/controllers/SiteController.php (94)
+in /homez.614/jacobdub/www/tfe/gluten-free/index.php (10)
+2014/05/15 13:59:55 [error] [php] Invalid argument supplied for foreach() (/homez.614/jacobdub/www/tfe/gluten-free/protected/views/site/profil.php:65)
+Stack trace:
+#0 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CController.php(869): SiteController->renderFile()
+#1 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CController.php(782): SiteController->renderPartial()
+#2 /homez.614/jacobdub/www/tfe/gluten-free/protected/controllers/SiteController.php(94): SiteController->render()
+#3 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/web/actions/CInlineAction.php(49): SiteController->actionProfil()
+#4 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CController.php(286): SiteController->runAction()
+#6 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#7 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CWebApplication.php(282): SiteController->run()
+#8 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#10 /homez.614/jacobdub/www/tfe/gluten-free/index.php(10): CWebApplication->run()
+REQUEST_URI=/tfe/gluten-free/index.php/site/profil
+in /homez.614/jacobdub/www/tfe/gluten-free/protected/views/site/profil.php (65)
+in /homez.614/jacobdub/www/tfe/gluten-free/protected/controllers/SiteController.php (94)
+in /homez.614/jacobdub/www/tfe/gluten-free/index.php (10)
+2014/05/15 14:02:37 [error] [php] Invalid argument supplied for foreach() (/homez.614/jacobdub/www/tfe/gluten-free/protected/views/site/profil.php:65)
+Stack trace:
+#0 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CController.php(869): SiteController->renderFile()
+#1 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CController.php(782): SiteController->renderPartial()
+#2 /homez.614/jacobdub/www/tfe/gluten-free/protected/controllers/SiteController.php(94): SiteController->render()
+#3 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/web/actions/CInlineAction.php(49): SiteController->actionProfil()
+#4 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CController.php(286): SiteController->runAction()
+#6 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#7 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CWebApplication.php(282): SiteController->run()
+#8 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#10 /homez.614/jacobdub/www/tfe/gluten-free/index.php(10): CWebApplication->run()
+REQUEST_URI=/tfe/gluten-free/index.php/site/profil
+in /homez.614/jacobdub/www/tfe/gluten-free/protected/views/site/profil.php (65)
+in /homez.614/jacobdub/www/tfe/gluten-free/protected/controllers/SiteController.php (94)
+in /homez.614/jacobdub/www/tfe/gluten-free/index.php (10)
+2014/05/15 14:02:41 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND t.date > '2014-05-15 00:00:00' AND t.date < '2014-05-15 23:59:59')' at line 1. The SQL statement executed was: SELECT `t`.`note_id` AS `t0_c0`, `t`.`user_id` AS `t0_c1`, `t`.`doctor_id` AS `t0_c2`, `t`.`content` AS `t0_c3`, `t`.`date` AS `t0_c4`, `t`.`type` AS `t0_c5`, `t`.`is_checked` AS `t0_c6`, `user`.`user_id` AS `t1_c0`, `user`.`email` AS `t1_c1`, `user`.`password` AS `t1_c2`, `user`.`picture_src` AS `t1_c3`, `user`.`lastname` AS `t1_c4`, `user`.`firstname` AS `t1_c5`, `user`.`phone_number` AS `t1_c6`, `user`.`address_1` AS `t1_c7`, `user`.`address_2` AS `t1_c8`, `user`.`is_doctor` AS `t1_c9`, `doctor`.`doctor_id` AS `t2_c0`, `doctor`.`user_id` AS `t2_c1` FROM `note` `t`  LEFT OUTER JOIN `user` `user` ON (`t`.`user_id`=`user`.`user_id`)  LEFT OUTER JOIN `doctor` `doctor` ON (`t`.`doctor_id`=`doctor`.`doctor_id`)  WHERE (t.user_id =  AND t.date > '2014-05-15 00:00:00' AND t.date < '2014-05-15 23:59:59').
+in /homez.614/jacobdub/www/tfe/gluten-free/protected/controllers/SiteController.php (163)
+in /homez.614/jacobdub/www/tfe/gluten-free/index.php (10)
+2014/05/15 14:02:41 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND t.date > '2014-05-15 00:00:00' AND t.date < '2014-05-15 23:59:59')' at line 1. The SQL statement executed was: SELECT `t`.`note_id` AS `t0_c0`, `t`.`user_id` AS `t0_c1`, `t`.`doctor_id` AS `t0_c2`, `t`.`content` AS `t0_c3`, `t`.`date` AS `t0_c4`, `t`.`type` AS `t0_c5`, `t`.`is_checked` AS `t0_c6`, `user`.`user_id` AS `t1_c0`, `user`.`email` AS `t1_c1`, `user`.`password` AS `t1_c2`, `user`.`picture_src` AS `t1_c3`, `user`.`lastname` AS `t1_c4`, `user`.`firstname` AS `t1_c5`, `user`.`phone_number` AS `t1_c6`, `user`.`address_1` AS `t1_c7`, `user`.`address_2` AS `t1_c8`, `user`.`is_doctor` AS `t1_c9`, `doctor`.`doctor_id` AS `t2_c0`, `doctor`.`user_id` AS `t2_c1` FROM `note` `t`  LEFT OUTER JOIN `user` `user` ON (`t`.`user_id`=`user`.`user_id`)  LEFT OUTER JOIN `doctor` `doctor` ON (`t`.`doctor_id`=`doctor`.`doctor_id`)  WHERE (t.user_id =  AND t.date > '2014-05-15 00:00:00' AND t.date < '2014-05-15 23:59:59')' in /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/db/CDbCommand.php:541
+Stack trace:
+#0 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/db/CDbCommand.php(395): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/db/ar/CActiveFinder.php(761): CDbCommand->queryAll()
+#2 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/db/ar/CActiveFinder.php(422): CJoinElement->runQuery(Object(CJoinQuery))
+#3 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/db/ar/CActiveFinder.php(68): CJoinElement->find(Object(CDbCriteria))
+#4 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/db/ar/CActiveRecord.php(1302): CActiveFinder->query(Object(CDbCriteria), true)
+#5 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/db/ar/CActiveRecord.php(1416): CActiveRecord->query(Object(CDbCriteria), true)
+#6 /homez.614/jacobdub/www/tfe/gluten-free/protected/controllers/SiteController.php(163): CActiveRecord->findAll(Object(CDbCriteria))
+#7 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/web/actions/CInlineAction.php(49): SiteController->actionJournal()
+#8 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#9 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#10 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CWebApplication.php(282): CController->run('journal')
+#12 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CWebApplication.php(141): CWebApplication->runController('site/journal')
+#13 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#14 /homez.614/jacobdub/www/tfe/gluten-free/index.php(10): CApplication->run()
+#15 {main}
+REQUEST_URI=/tfe/gluten-free/index.php/site/journal
+HTTP_REFERER=http://jacobdubut.be/tfe/gluten-free/
+---
+2014/05/15 14:11:36 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY date DESC' at line 1. The SQL statement executed was: SELECT * FROM `note` `t` WHERE user_id =  ORDER BY date DESC.
+in /homez.614/jacobdub/www/tfe/gluten-free/protected/controllers/SiteController.php (186)
+in /homez.614/jacobdub/www/tfe/gluten-free/index.php (10)
+2014/05/15 14:11:36 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY date DESC' at line 1. The SQL statement executed was: SELECT * FROM `note` `t` WHERE user_id =  ORDER BY date DESC' in /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/db/CDbCommand.php:541
+Stack trace:
+#0 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/db/CDbCommand.php(395): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/db/ar/CActiveRecord.php(1297): CDbCommand->queryAll()
+#2 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/db/ar/CActiveRecord.php(1416): CActiveRecord->query(Object(CDbCriteria), true)
+#3 /homez.614/jacobdub/www/tfe/gluten-free/protected/controllers/SiteController.php(186): CActiveRecord->findAll(Object(CDbCriteria))
+#4 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/web/actions/CInlineAction.php(49): SiteController->actionConsultation()
+#5 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#6 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#7 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CWebApplication.php(282): CController->run('consultation')
+#9 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CWebApplication.php(141): CWebApplication->runController('site/consultati...')
+#10 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#11 /homez.614/jacobdub/www/tfe/gluten-free/index.php(10): CApplication->run()
+#12 {main}
+REQUEST_URI=/tfe/gluten-free/index.php/site/consultation
+HTTP_REFERER=http://jacobdubut.be/tfe/gluten-free/index.php/site/patient
+---
+2014/05/15 14:12:17 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY date DESC' at line 1. The SQL statement executed was: SELECT * FROM `note` `t` WHERE user_id =  ORDER BY date DESC.
+in /homez.614/jacobdub/www/tfe/gluten-free/protected/controllers/SiteController.php (186)
+in /homez.614/jacobdub/www/tfe/gluten-free/index.php (10)
+2014/05/15 14:12:17 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY date DESC' at line 1. The SQL statement executed was: SELECT * FROM `note` `t` WHERE user_id =  ORDER BY date DESC' in /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/db/CDbCommand.php:541
+Stack trace:
+#0 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/db/CDbCommand.php(395): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/db/ar/CActiveRecord.php(1297): CDbCommand->queryAll()
+#2 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/db/ar/CActiveRecord.php(1416): CActiveRecord->query(Object(CDbCriteria), true)
+#3 /homez.614/jacobdub/www/tfe/gluten-free/protected/controllers/SiteController.php(186): CActiveRecord->findAll(Object(CDbCriteria))
+#4 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/web/actions/CInlineAction.php(49): SiteController->actionConsultation()
+#5 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#6 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#7 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CWebApplication.php(282): CController->run('consultation')
+#9 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CWebApplication.php(141): CWebApplication->runController('site/consultati...')
+#10 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#11 /homez.614/jacobdub/www/tfe/gluten-free/index.php(10): CApplication->run()
+#12 {main}
+REQUEST_URI=/tfe/gluten-free/index.php/site/consultation
+HTTP_REFERER=http://jacobdubut.be/tfe/gluten-free/index.php/site/patient
+---
+2014/05/15 14:12:23 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY date DESC' at line 1. The SQL statement executed was: SELECT * FROM `note` `t` WHERE user_id =  ORDER BY date DESC.
+in /homez.614/jacobdub/www/tfe/gluten-free/protected/controllers/SiteController.php (186)
+in /homez.614/jacobdub/www/tfe/gluten-free/index.php (10)
+2014/05/15 14:12:23 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY date DESC' at line 1. The SQL statement executed was: SELECT * FROM `note` `t` WHERE user_id =  ORDER BY date DESC' in /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/db/CDbCommand.php:541
+Stack trace:
+#0 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/db/CDbCommand.php(395): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/db/ar/CActiveRecord.php(1297): CDbCommand->queryAll()
+#2 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/db/ar/CActiveRecord.php(1416): CActiveRecord->query(Object(CDbCriteria), true)
+#3 /homez.614/jacobdub/www/tfe/gluten-free/protected/controllers/SiteController.php(186): CActiveRecord->findAll(Object(CDbCriteria))
+#4 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/web/actions/CInlineAction.php(49): SiteController->actionConsultation()
+#5 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#6 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#7 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CWebApplication.php(282): CController->run('consultation')
+#9 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CWebApplication.php(141): CWebApplication->runController('site/consultati...')
+#10 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#11 /homez.614/jacobdub/www/tfe/gluten-free/index.php(10): CApplication->run()
+#12 {main}
+REQUEST_URI=/tfe/gluten-free/index.php/site/consultation
+HTTP_REFERER=http://jacobdubut.be/tfe/gluten-free/index.php/site/patient
+---
+2014/05/15 14:12:33 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY date DESC' at line 1. The SQL statement executed was: SELECT * FROM `note` `t` WHERE user_id =  ORDER BY date DESC.
+in /homez.614/jacobdub/www/tfe/gluten-free/protected/controllers/SiteController.php (186)
+in /homez.614/jacobdub/www/tfe/gluten-free/index.php (10)
+2014/05/15 14:12:33 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY date DESC' at line 1. The SQL statement executed was: SELECT * FROM `note` `t` WHERE user_id =  ORDER BY date DESC' in /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/db/CDbCommand.php:541
+Stack trace:
+#0 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/db/CDbCommand.php(395): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/db/ar/CActiveRecord.php(1297): CDbCommand->queryAll()
+#2 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/db/ar/CActiveRecord.php(1416): CActiveRecord->query(Object(CDbCriteria), true)
+#3 /homez.614/jacobdub/www/tfe/gluten-free/protected/controllers/SiteController.php(186): CActiveRecord->findAll(Object(CDbCriteria))
+#4 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/web/actions/CInlineAction.php(49): SiteController->actionConsultation()
+#5 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#6 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#7 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CWebApplication.php(282): CController->run('consultation')
+#9 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CWebApplication.php(141): CWebApplication->runController('site/consultati...')
+#10 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#11 /homez.614/jacobdub/www/tfe/gluten-free/index.php(10): CApplication->run()
+#12 {main}
+REQUEST_URI=/tfe/gluten-free/index.php/site/consultation
+HTTP_REFERER=http://jacobdubut.be/tfe/gluten-free/index.php/site/patient
+---
+2014/05/15 14:15:51 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY date DESC' at line 1. The SQL statement executed was: SELECT * FROM `note` `t` WHERE user_id =  ORDER BY date DESC.
+in /homez.614/jacobdub/www/tfe/gluten-free/protected/controllers/SiteController.php (186)
+in /homez.614/jacobdub/www/tfe/gluten-free/index.php (10)
+2014/05/15 14:15:51 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY date DESC' at line 1. The SQL statement executed was: SELECT * FROM `note` `t` WHERE user_id =  ORDER BY date DESC' in /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/db/CDbCommand.php:541
+Stack trace:
+#0 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/db/CDbCommand.php(395): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/db/ar/CActiveRecord.php(1297): CDbCommand->queryAll()
+#2 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/db/ar/CActiveRecord.php(1416): CActiveRecord->query(Object(CDbCriteria), true)
+#3 /homez.614/jacobdub/www/tfe/gluten-free/protected/controllers/SiteController.php(186): CActiveRecord->findAll(Object(CDbCriteria))
+#4 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/web/actions/CInlineAction.php(49): SiteController->actionConsultation()
+#5 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#6 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#7 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CWebApplication.php(282): CController->run('consultation')
+#9 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CWebApplication.php(141): CWebApplication->runController('site/consultati...')
+#10 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#11 /homez.614/jacobdub/www/tfe/gluten-free/index.php(10): CApplication->run()
+#12 {main}
+REQUEST_URI=/tfe/gluten-free/index.php/site/consultation
+HTTP_REFERER=http://jacobdubut.be/tfe/gluten-free/index.php/site/patient
+---
+2014/05/16 11:48:37 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY date DESC' at line 1. The SQL statement executed was: SELECT * FROM `note` `t` WHERE user_id =  ORDER BY date DESC.
+in /homez.614/jacobdub/www/tfe/gluten-free/protected/controllers/SiteController.php (186)
+in /homez.614/jacobdub/www/tfe/gluten-free/index.php (10)
+2014/05/16 11:48:37 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY date DESC' at line 1. The SQL statement executed was: SELECT * FROM `note` `t` WHERE user_id =  ORDER BY date DESC' in /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/db/CDbCommand.php:541
+Stack trace:
+#0 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/db/CDbCommand.php(395): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/db/ar/CActiveRecord.php(1297): CDbCommand->queryAll()
+#2 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/db/ar/CActiveRecord.php(1416): CActiveRecord->query(Object(CDbCriteria), true)
+#3 /homez.614/jacobdub/www/tfe/gluten-free/protected/controllers/SiteController.php(186): CActiveRecord->findAll(Object(CDbCriteria))
+#4 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/web/actions/CInlineAction.php(49): SiteController->actionConsultation()
+#5 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#6 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#7 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CWebApplication.php(282): CController->run('consultation')
+#9 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CWebApplication.php(141): CWebApplication->runController('site/consultati...')
+#10 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#11 /homez.614/jacobdub/www/tfe/gluten-free/index.php(10): CApplication->run()
+#12 {main}
+REQUEST_URI=/tfe/gluten-free/index.php/site/consultation?x=90&y=127
+HTTP_REFERER=http://jacobdubut.be/tfe/gluten-free/index.php/site/consultation?id=13
+---
+2014/05/16 11:48:53 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY date DESC' at line 1. The SQL statement executed was: SELECT * FROM `note` `t` WHERE user_id =  ORDER BY date DESC.
+in /homez.614/jacobdub/www/tfe/gluten-free/protected/controllers/SiteController.php (186)
+in /homez.614/jacobdub/www/tfe/gluten-free/index.php (10)
+2014/05/16 11:48:53 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY date DESC' at line 1. The SQL statement executed was: SELECT * FROM `note` `t` WHERE user_id =  ORDER BY date DESC' in /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/db/CDbCommand.php:541
+Stack trace:
+#0 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/db/CDbCommand.php(395): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/db/ar/CActiveRecord.php(1297): CDbCommand->queryAll()
+#2 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/db/ar/CActiveRecord.php(1416): CActiveRecord->query(Object(CDbCriteria), true)
+#3 /homez.614/jacobdub/www/tfe/gluten-free/protected/controllers/SiteController.php(186): CActiveRecord->findAll(Object(CDbCriteria))
+#4 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/web/actions/CInlineAction.php(49): SiteController->actionConsultation()
+#5 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#6 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#7 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CWebApplication.php(282): CController->run('consultation')
+#9 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CWebApplication.php(141): CWebApplication->runController('site/consultati...')
+#10 /homez.614/jacobdub/www/tfe/gluten-free/yii1113/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#11 /homez.614/jacobdub/www/tfe/gluten-free/index.php(10): CApplication->run()
+#12 {main}
+REQUEST_URI=/tfe/gluten-free/index.php/site/consultation?
+HTTP_REFERER=http://jacobdubut.be/tfe/gluten-free/index.php/site/consultation?id=11
+---
+2014/06/04 13:39:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "apropos.php".' in /home/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CController.php:483
+Stack trace:
+#0 /home/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CController.php(270): CController->missingAction('apropos.php')
+#1 /home/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CWebApplication.php(282): CController->run('apropos.php')
+#2 /home/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CWebApplication.php(141): CWebApplication->runController('site/apropos.ph...')
+#3 /home/jacobdub/www/tfe/gluten-free/yii1113/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /home/jacobdub/www/tfe/gluten-free/index.php(10): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfe/gluten-free/index.php/site/apropos.php
+HTTP_REFERER=http://jacobdubut.be/tfe/gluten-free/index.php/site/journal
+---
+2014/06/04 13:39:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "credits.php".' in /home/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CController.php:483
+Stack trace:
+#0 /home/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CController.php(270): CController->missingAction('credits.php')
+#1 /home/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CWebApplication.php(282): CController->run('credits.php')
+#2 /home/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CWebApplication.php(141): CWebApplication->runController('site/credits.ph...')
+#3 /home/jacobdub/www/tfe/gluten-free/yii1113/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /home/jacobdub/www/tfe/gluten-free/index.php(10): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfe/gluten-free/index.php/site/credits.php
+HTTP_REFERER=http://jacobdubut.be/tfe/gluten-free/index.php/site/apropos.php
+---
+2014/06/04 13:49:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "credits.php".' in /home/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CController.php:483
+Stack trace:
+#0 /home/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CController.php(270): CController->missingAction('credits.php')
+#1 /home/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CWebApplication.php(282): CController->run('credits.php')
+#2 /home/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CWebApplication.php(141): CWebApplication->runController('site/credits.ph...')
+#3 /home/jacobdub/www/tfe/gluten-free/yii1113/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /home/jacobdub/www/tfe/gluten-free/index.php(10): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfe/gluten-free/index.php/site/credits.php
+HTTP_REFERER=http://jacobdubut.be/tfe/gluten-free/index.php/site/apropos.php
+---
+2014/06/04 14:20:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "apropos.php".' in /home/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CController.php:483
+Stack trace:
+#0 /home/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CController.php(270): CController->missingAction('apropos.php')
+#1 /home/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CWebApplication.php(282): CController->run('apropos.php')
+#2 /home/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CWebApplication.php(141): CWebApplication->runController('site/apropos.ph...')
+#3 /home/jacobdub/www/tfe/gluten-free/yii1113/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /home/jacobdub/www/tfe/gluten-free/index.php(10): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfe/gluten-free/index.php/site/apropos.php
+HTTP_REFERER=http://jacobdubut.be/tfe/gluten-free/index.php/site/patient
+---
+2014/06/04 14:20:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "credits.php".' in /home/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CController.php:483
+Stack trace:
+#0 /home/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CController.php(270): CController->missingAction('credits.php')
+#1 /home/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CWebApplication.php(282): CController->run('credits.php')
+#2 /home/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CWebApplication.php(141): CWebApplication->runController('site/credits.ph...')
+#3 /home/jacobdub/www/tfe/gluten-free/yii1113/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /home/jacobdub/www/tfe/gluten-free/index.php(10): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfe/gluten-free/index.php/site/credits.php
+HTTP_REFERER=http://jacobdubut.be/tfe/gluten-free/index.php/site/apropos.php
+---
+2014/06/04 14:34:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "apropos.php".' in /home/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CController.php:483
+Stack trace:
+#0 /home/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CController.php(270): CController->missingAction('apropos.php')
+#1 /home/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CWebApplication.php(282): CController->run('apropos.php')
+#2 /home/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CWebApplication.php(141): CWebApplication->runController('site/apropos.ph...')
+#3 /home/jacobdub/www/tfe/gluten-free/yii1113/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /home/jacobdub/www/tfe/gluten-free/index.php(10): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfe/gluten-free/index.php/site/apropos.php
+HTTP_REFERER=http://jacobdubut.be/tfe/gluten-free/index.php/site/journal
+---
+2014/06/04 14:36:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "apropos.php".' in /home/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CController.php:483
+Stack trace:
+#0 /home/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CController.php(270): CController->missingAction('apropos.php')
+#1 /home/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CWebApplication.php(282): CController->run('apropos.php')
+#2 /home/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CWebApplication.php(141): CWebApplication->runController('site/apropos.ph...')
+#3 /home/jacobdub/www/tfe/gluten-free/yii1113/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /home/jacobdub/www/tfe/gluten-free/index.php(10): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfe/gluten-free/index.php/site/apropos.php
+HTTP_REFERER=http://jacobdubut.be/tfe/gluten-free/index.php/site/journal
+---
+2014/06/04 14:36:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "credits.php".' in /home/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CController.php:483
+Stack trace:
+#0 /home/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CController.php(270): CController->missingAction('credits.php')
+#1 /home/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CWebApplication.php(282): CController->run('credits.php')
+#2 /home/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CWebApplication.php(141): CWebApplication->runController('site/credits.ph...')
+#3 /home/jacobdub/www/tfe/gluten-free/yii1113/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /home/jacobdub/www/tfe/gluten-free/index.php(10): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfe/gluten-free/index.php/site/credits.php
+HTTP_REFERER=http://jacobdubut.be/tfe/gluten-free/index.php/site/apropos.php
+---
+2014/06/04 14:42:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "credits.php".' in /home/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CController.php:483
+Stack trace:
+#0 /home/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CController.php(270): CController->missingAction('credits.php')
+#1 /home/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CWebApplication.php(282): CController->run('credits.php')
+#2 /home/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CWebApplication.php(141): CWebApplication->runController('site/credits.ph...')
+#3 /home/jacobdub/www/tfe/gluten-free/yii1113/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /home/jacobdub/www/tfe/gluten-free/index.php(10): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfe/gluten-free/index.php/site/credits.php
+HTTP_REFERER=http://jacobdubut.be/tfe/gluten-free/index.php/site/apropos.php
+---
+2014/06/04 14:50:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "bad".' in /home/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CController.php:483
+Stack trace:
+#0 /home/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CController.php(270): CController->missingAction('bad')
+#1 /home/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CWebApplication.php(282): CController->run('bad')
+#2 /home/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CWebApplication.php(141): CWebApplication->runController('ajax/bad')
+#3 /home/jacobdub/www/tfe/gluten-free/yii1113/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /home/jacobdub/www/tfe/gluten-free/index.php(10): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfe/gluten-free/index.php/ajax/bad
+HTTP_REFERER=http://jacobdubut.be/tfe/gluten-free/index.php/site/journal
+---
+2014/06/04 14:50:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "bad".' in /home/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CController.php:483
+Stack trace:
+#0 /home/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CController.php(270): CController->missingAction('bad')
+#1 /home/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CWebApplication.php(282): CController->run('bad')
+#2 /home/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CWebApplication.php(141): CWebApplication->runController('ajax/bad')
+#3 /home/jacobdub/www/tfe/gluten-free/yii1113/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /home/jacobdub/www/tfe/gluten-free/index.php(10): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfe/gluten-free/index.php/ajax/bad
+HTTP_REFERER=http://jacobdubut.be/tfe/gluten-free/index.php/site/journal
+---
+2014/06/04 14:50:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "good".' in /home/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CController.php:483
+Stack trace:
+#0 /home/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CController.php(270): CController->missingAction('good')
+#1 /home/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CWebApplication.php(282): CController->run('good')
+#2 /home/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CWebApplication.php(141): CWebApplication->runController('ajax/good')
+#3 /home/jacobdub/www/tfe/gluten-free/yii1113/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /home/jacobdub/www/tfe/gluten-free/index.php(10): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfe/gluten-free/index.php/ajax/good
+HTTP_REFERER=http://jacobdubut.be/tfe/gluten-free/index.php/site/journal
+---
+2014/06/04 14:50:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "bad".' in /home/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CController.php:483
+Stack trace:
+#0 /home/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CController.php(270): CController->missingAction('bad')
+#1 /home/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CWebApplication.php(282): CController->run('bad')
+#2 /home/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CWebApplication.php(141): CWebApplication->runController('ajax/bad')
+#3 /home/jacobdub/www/tfe/gluten-free/yii1113/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /home/jacobdub/www/tfe/gluten-free/index.php(10): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfe/gluten-free/index.php/ajax/bad
+HTTP_REFERER=http://jacobdubut.be/tfe/gluten-free/index.php/site/journal
+---
+2014/06/04 14:50:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "good".' in /home/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CController.php:483
+Stack trace:
+#0 /home/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CController.php(270): CController->missingAction('good')
+#1 /home/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CWebApplication.php(282): CController->run('good')
+#2 /home/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CWebApplication.php(141): CWebApplication->runController('ajax/good')
+#3 /home/jacobdub/www/tfe/gluten-free/yii1113/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /home/jacobdub/www/tfe/gluten-free/index.php(10): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfe/gluten-free/index.php/ajax/good
+HTTP_REFERER=http://jacobdubut.be/tfe/gluten-free/index.php/site/journal
+---
+2014/06/04 14:50:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "bad".' in /home/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CController.php:483
+Stack trace:
+#0 /home/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CController.php(270): CController->missingAction('bad')
+#1 /home/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CWebApplication.php(282): CController->run('bad')
+#2 /home/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CWebApplication.php(141): CWebApplication->runController('ajax/bad')
+#3 /home/jacobdub/www/tfe/gluten-free/yii1113/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /home/jacobdub/www/tfe/gluten-free/index.php(10): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfe/gluten-free/index.php/ajax/bad
+HTTP_REFERER=http://jacobdubut.be/tfe/gluten-free/index.php/site/journal
+---
+2014/06/04 14:50:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "good".' in /home/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CController.php:483
+Stack trace:
+#0 /home/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CController.php(270): CController->missingAction('good')
+#1 /home/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CWebApplication.php(282): CController->run('good')
+#2 /home/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CWebApplication.php(141): CWebApplication->runController('ajax/good')
+#3 /home/jacobdub/www/tfe/gluten-free/yii1113/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /home/jacobdub/www/tfe/gluten-free/index.php(10): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfe/gluten-free/index.php/ajax/good
+HTTP_REFERER=http://jacobdubut.be/tfe/gluten-free/index.php/site/journal
+---
+2014/06/04 14:50:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "bad".' in /home/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CController.php:483
+Stack trace:
+#0 /home/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CController.php(270): CController->missingAction('bad')
+#1 /home/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CWebApplication.php(282): CController->run('bad')
+#2 /home/jacobdub/www/tfe/gluten-free/yii1113/framework/web/CWebApplication.php(141): CWebApplication->runController('ajax/bad')
+#3 /home/jacobdub/www/tfe/gluten-free/yii1113/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /home/jacobdub/www/tfe/gluten-free/index.php(10): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfe/gluten-free/index.php/ajax/bad
+HTTP_REFERER=http://jacobdubut.be/tfe/gluten-free/index.php/site/journal
+---
