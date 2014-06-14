@@ -7,6 +7,6 @@ tel que le header et le footer. Ensuite j'amène le contenu de chaque page grâc
 'protected/views/site/*' 
 La logique quant à elle se situe dans 'protected/controllers/*'.
 
-Pour les informations se trouvant dans la base de données je passe par 'protected/models/', pour gérer mes excès à la base de données, l'ensemble des informations se trouvent dans 'protected/config/main.php'
+Pour les informations se trouvant dans la base de données je passe par 'protected/models/', pour gérer mes accès à la base de données, l'ensemble des informations se trouvent dans 'protected/config/main.php'
 
 Les autres dossiers et sous-dossiers qu'offrent Yii-Framework ne sont pas utilisés pour mon projet. Ils doivent tout de même rester présent car le framework devient instable si on les supprime, de plus si mon projet évolue, ils seront déjà présent c'est tout bénèf. :)
